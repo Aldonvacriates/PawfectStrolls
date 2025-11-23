@@ -33,7 +33,7 @@ const OurGroomers = () => {
                         </span>
 
                         <h4 className="groomers-names">
-                        Jenny Wilson
+                        Aldo Herrera
                         </h4>
 
                         <div className="groomers-social-profiles">
