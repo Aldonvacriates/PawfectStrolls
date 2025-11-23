@@ -39,7 +39,7 @@ const Home = () => {
     <OurGroomers />
     <ClientsFeedback />
     <SubscribeNewsletter />
-    <BlogSec />
+    {/* <BlogSec /> */}
     <Footer />
     </div>
     </>
