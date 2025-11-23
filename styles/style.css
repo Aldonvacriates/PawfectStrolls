@@ -151,7 +151,8 @@ a{
 .page1-wrap .home-banner-sec{
     height: 1000px;
     max-height: 967px;
-    background: url("src/assets/home-3/header/banner-main-img.png");
+    /* Use a build-friendly relative path so Vite can rewrite the asset on deploy */
+    background: url("../src/assets/home-3/header/banner-main-img.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
