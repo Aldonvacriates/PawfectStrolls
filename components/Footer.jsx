@@ -54,7 +54,7 @@ const Footer = () => {
                         <div className="footer-contact-cont">
                             <span>Support</span>
                             <h4 className="footer-contact-name">
-                            <a href="mailto:hello@pawfectstrolls.shop">hello@pawfectstrolls.shop</a>
+                            <a href="mailto:hello@pawfectstrolls.shop">hello@pawfectstrolls.com</a>
                             </h4>
                         </div>
                     </li>
