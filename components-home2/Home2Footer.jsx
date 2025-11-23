@@ -37,92 +37,137 @@ const Home2Footer = () => {
     
   return (
     <>
-    <section className="home-2-footer-sec">
+      <section className="home-2-footer-sec">
         <div className="container">
-            <div className="row">
-                <div className="col-lg-4">
-                 <div className="home-2-footer-logo-and-cont">
-                    <div className="home-2-footer-logo">
-                        <Link to="/">
-                        <img src={FooterLogo} alt="" />
-                        </Link>
-                    </div>
-                    <p>Leverage agile frameworks to provide a robust synopsis for strategy collaborative thinking to further the overall value proposition.</p>
-                 </div>
+          <div className="row">
+            <div className="col-lg-4">
+              <div className="home-2-footer-logo-and-cont">
+                <div className="home-2-footer-logo">
+                  <Link to="/">
+                    <img src={FooterLogo} alt="" />
+                  </Link>
                 </div>
-                <div className="col-lg-2">
-                    <div className="home-2-footer-logo-page-links">
-                        <h4 className="home-2-footer-logo-pages-tit">
-                        Pages
-                        </h4>
+                <p>
+                  Leverage agile frameworks to provide a robust synopsis for
+                  strategy collaborative thinking to further the overall value
+                  proposition.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-2">
+              <div className="home-2-footer-logo-page-links">
+                <h4 className="home-2-footer-logo-pages-tit">Pages</h4>
 
-                        <ul className="home-2-footer-logo-pages-lu-checks">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Our Team</a></li>
-                            <li><a href="#">Our Project</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="col-lg-2">
-                <div className="home-2-footer-logo-Utility-links">
-                        <h4 className="home-2-footer-logo-Utility-tit">
-                        Utility
-                        </h4>
+                <ul className="home-2-footer-logo-pages-lu-checks">
+                  <li>
+                    <a href="#">About Us</a>
+                  </li>
+                  <li>
+                    <a href="#">Our Team</a>
+                  </li>
+                  <li>
+                    <a href="#">Our Project</a>
+                  </li>
+                  <li>
+                    <a href="#">Pricing</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-2">
+              <div className="home-2-footer-logo-Utility-links">
+                <h4 className="home-2-footer-logo-Utility-tit">Utility</h4>
 
-                        <ul className="home-2-footer-logo-Utility-lu-checks">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Our Team</a></li>
-                            <li><a href="#">Our Project</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="col-lg-4">
-                    <div className="home-2-footer-logo-Subscribe-links">
-                <h4 className="home-2-footer-logo-Subscribe-tit">
-                Subscribe
-                </h4>
+                <ul className="home-2-footer-logo-Utility-lu-checks">
+                  <li>
+                    <a href="#">About Us</a>
+                  </li>
+                  <li>
+                    <a href="#">Our Team</a>
+                  </li>
+                  <li>
+                    <a href="#">Our Project</a>
+                  </li>
+                  <li>
+                    <a href="#">Pricing</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="home-2-footer-logo-Subscribe-links">
+                <h4 className="home-2-footer-logo-Subscribe-tit">Subscribe</h4>
 
-                <form  ref={formRef} onSubmit={handleSubmit} action="">
-                <input className="home-2-footer-logo-Subscribe-input" name="message" type="text"  placeholder='Email here*'/>
-                <button  type="submit" id="button" className="home-2-footer-btn">
-                {/* Send Now */}
-                {buttonText}
-                </button>
+                <form ref={formRef} onSubmit={handleSubmit} action="">
+                  <input
+                    className="home-2-footer-logo-Subscribe-input"
+                    name="message"
+                    type="text"
+                    placeholder="Email here*"
+                  />
+                  <button
+                    type="submit"
+                    id="button"
+                    className="home-2-footer-btn"
+                  >
+                    {/* Send Now */}
+                    {buttonText}
+                  </button>
                 </form>
 
-
-               <div className="home2-social-media-f-wrap-nd-subcribe">
-               
-
-                <div className="home2-social-media-f-wrap">
-                    <a href="#"><img src={Social1} alt="" /></a>
-                    <a href="#"><img src={Social2} alt="" /></a>
-                    <a href="#"><img src={Social3} alt="" /></a>
-
+                <div className="home2-social-media-f-wrap-nd-subcribe">
+                  <div className="home2-social-media-f-wrap">
+                    <a href="#">
+                      <img src={Social1} alt="" />
+                    </a>
+                    <a href="#">
+                      <img src={Social2} alt="" />
+                    </a>
+                    <a href="#">
+                      <img src={Social3} alt="" />
+                    </a>
+                  </div>
                 </div>
-               </div>
-                
-                </div>
-                </div>
+              </div>
             </div>
+          </div>
         </div>
 
         <div className="copy-rights-nd-terms-nd-conditions">
-            <h4>© 2023 Copyrights, All rights reserved. Design by <a href="#"> Pixelpro Creation </a></h4>
+          
+            <h4 className="copy-rights">
+              © {year} Copyrights, All rights reserved. Design by{" "}
+              <a
+                href="https://www.aldowebsite.shop/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <b> Aldo Website </b>
+              </a>
+            </h4>
+          
 
-            <ul>
-                <li><a href="#">Terms of Use</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Cookie Policy</a></li>
-            </ul>
+          <ul>
+            <li>
+              <a href="#">Terms of Use</a>
+            </li>
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#">Cookie Policy</a>
+            </li>
+          </ul>
         </div>
-    </section>
+      </section>
     </>
-  )
+  );
 }
 
 export default Home2Footer
