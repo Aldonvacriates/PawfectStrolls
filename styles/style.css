@@ -977,7 +977,7 @@ span{
 }
 
 .subscribe-newsletter-sec{
-    background: url("https://placehold.co/1920x442");
+    background: url("src/assets/home/subscribe-newsletter/Subscribe-Newsletter.png");
     max-height: 442px;
     height: 442px;
     display: grid;
