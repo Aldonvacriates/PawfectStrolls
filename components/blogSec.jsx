@@ -20,7 +20,6 @@ import 'swiper/css/navigation';
 
 
 const BlogSec = () => {
-   const blogSwiperCardImg = "https://placehold.co/417x270"
 
   return (
     <>
@@ -49,7 +48,7 @@ const BlogSec = () => {
           <div className="blog-swiper-card">
             <div className="blog-swiper-card-img">
               <Link to="/BlogListingpage">
-              <img src={blogSwiperCardImg} alt="" />
+              <img src={Img1} alt="" />
               </Link>
             </div>
             <div className="admin-nd-pet-care">
@@ -71,7 +70,7 @@ const BlogSec = () => {
         <div className="blog-swiper-card">
             <div className="blog-swiper-card-img">
              <Link to="/BlogListingpage">
-              <img src={blogSwiperCardImg} alt="" />
+              <img src={Img2} alt="" />
               </Link>
             </div>
             <div className="admin-nd-pet-care">
@@ -94,7 +93,7 @@ const BlogSec = () => {
         <div className="blog-swiper-card">
             <div className="blog-swiper-card-img">
               <Link to="/BlogListingpage">
-              <img src={blogSwiperCardImg} alt="" />
+              <img src={Img3} alt="" />
               </Link>
             </div>
             <div className="admin-nd-pet-care">
@@ -116,7 +115,7 @@ const BlogSec = () => {
           <div className="blog-swiper-card">
             <div className="blog-swiper-card-img">
               <Link to="/BlogListingpage">
-              <img src={blogSwiperCardImg} alt="" />
+              <img src={Img1} alt="" />
               </Link>
             </div>
             <div className="admin-nd-pet-care">
@@ -138,7 +137,7 @@ const BlogSec = () => {
         <div className="blog-swiper-card">
             <div className="blog-swiper-card-img">
             <Link to="/BlogListingpage">
-              <img src={blogSwiperCardImg} alt="" />
+              <img src={Img2} alt="" />
               </Link>
             </div>
             <div className="admin-nd-pet-care">
@@ -160,7 +159,7 @@ const BlogSec = () => {
         <div className="blog-swiper-card">
             <div className="blog-swiper-card-img">
               <Link to="/BlogListingpage">
-              <img src={blogSwiperCardImg} alt="" />
+              <img src={Img3} alt="" />
               </Link>
             </div>
             <div className="admin-nd-pet-care">

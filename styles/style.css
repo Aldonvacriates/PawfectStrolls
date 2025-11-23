@@ -151,7 +151,7 @@ a{
 .page1-wrap .home-banner-sec{
     height: 1000px;
     max-height: 967px;
-    background: url("https://placehold.co/2880x1451");
+    background: url("src/assets/home-3/header/banner-main-img.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

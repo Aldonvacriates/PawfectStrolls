@@ -7,14 +7,11 @@ import UiChecksImg3 from "../src/assets/home-3/home3-pet-detail-page/pet-detail-
 import UiChecksImg4 from "../src/assets/home-3/home3-pet-detail-page/pet-detail-ul-check4.png"
 import UiChecksImg5 from "../src/assets/home-3/home3-pet-detail-page/pet-detail-ul-check5.png"
 import UiChecksImg6 from "../src/assets/home-3/home3-pet-detail-page/pet-detail-ul-check6.png"
-// import UiChecksImg7 from "../src/assets/home-3/Home3-Adopt-Pets/Home3-Adopt-Pets-main-img.png"
-// import UiChecksImg8 from "../src/assets/home-3/home3-pet-detail-page/adoptapet.png"
-// import BottomImg from "../src/assets/home-3/home3-pet-detail-page/PetsDetailPagebottom-img.png"
+import UiChecksImg7 from "../src/assets/home-3/home3-pet-detail-page/pet-detail-card-main.png"
+import UiChecksImg8 from "../src/assets/home-3/home3-pet-detail-page/adoptapet.png"
+import BottomImg from "../src/assets/home-3/home3-pet-detail-page/PetsDetailPagebottom-img.png"
 
 const PetsDetailPage = () => {
-    const UiChecksImg7 = "https://placehold.co/238x220";
-    const BottomImg = "https://placehold.co/1290x461";  
-    const UiChecksImg8 = "https://placehold.co/80x80";
 
   return (
     <>

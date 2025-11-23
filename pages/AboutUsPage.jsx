@@ -7,8 +7,8 @@ import { Link } from "react-router-dom"
 
 
 const AboutUsPage = () => {
-  const SafeaAndGoodHandsMainImg = "https://placehold.co/737x677"
-  const AboutDCCareImg = "https://placehold.co/685x573"
+  const SafeaAndGoodHandsMainImg = SafeaAndGoodHandsimg1;
+  const AboutDCCareImg = MainImg;
   return (
     <>
     <Home3Header />

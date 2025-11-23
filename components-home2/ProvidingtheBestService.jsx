@@ -2,7 +2,6 @@ import Img1 from "../src/assets/home-2/Providing-the-Best-Service/Providing-the-
 import Img2 from "../src/assets/home-2/Providing-the-Best-Service/Providing-the-Best-Service-ul-img1.png"
 
 const ProvidingtheBestService = () => {
-    const ProvidingBestService = "https://placehold.co/110x90"
   return (
     <>
     <section className="Providing-the-Best-Service-sec">
@@ -19,11 +18,11 @@ const ProvidingtheBestService = () => {
 
                         <ul className="Providing-the-Best-Service-ul-checks">
                             <li>
-                                <img src={ProvidingBestService} alt="" />
+                                <img src={Img1} alt="" />
                                 <p>Risus sed vulputate odio ut enim. Cursus in hac habitasse platea dictumst. Tortor dignissim convallis aenean et tortor. Etiam sit amet nisl purus in mollis nunc sed id.</p>    
                             </li>
                             <li>
-                                <img src={ProvidingBestService} alt="" />
+                                <img src={Img2} alt="" />
                                 <p>Risus sed vulputate odio ut enim. Cursus in hac habitasse platea dictumst. Tortor dignissim convallis aenean et tortor. Etiam sit amet nisl purus in mollis nunc sed id.</p>    
                             </li>
                         </ul>

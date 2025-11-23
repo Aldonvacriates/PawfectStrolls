@@ -2,7 +2,7 @@ import Home2PetsLivesMain1 from "../src/assets/home-2/Pets-lives/home2-pets-live
 
 const PetsLives = () => {
 
-    const petsLivesMain = "https://placehold.co/670x641" 
+    const petsLivesMain = Home2PetsLivesMain1;
 
   return (
     <>

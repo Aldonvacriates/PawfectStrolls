@@ -1,7 +1,7 @@
 import Img1 from "../src/assets/home/about-us/about-us-sec-mainimg.png"
 
 const AboutUsSec = () => {
-  const aboutUsSecMainImg = "https://placehold.co/608x599"
+  const aboutUsSecMainImg = Img1;
   return (
     <>
     <section className="about-us-sec">

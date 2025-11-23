@@ -13,10 +13,7 @@ import ShopCardImg8 from "../src/assets/home-3/pet-shoop/shop-img8.png"
 import ShopCardImg9 from "../src/assets/home-3/pet-shoop/shop-img9.png"
 
 const Shop = () => {
-    
-    const ShopCardImg1 = "https://placehold.co/298x201"
-
-    
+    const shopProducts = [ShopCardImg1, ShopCardImg2, ShopCardImg3, ShopCardImg4, ShopCardImg5, ShopCardImg6, ShopCardImg7, ShopCardImg8, ShopCardImg9];
   return (
    <>
    <Home3Header />
@@ -175,213 +172,30 @@ const Shop = () => {
                     </div>
 
                     <div className="row">
-                    <div className="col-xl-4 col-lg-6">
-                        <div className="home3-pet-foot-shop-product-card">
-                            <div className="home3-pet-foot-shop-product-img">
-                                <Link to="/home3shopdetailspage">
-                                <img src={ShopCardImg1} alt="" />
+                      {shopProducts.map((productImg, idx) => (
+                        <div className="col-xl-4 col-lg-6" key={idx}>
+                            <div className="home3-pet-foot-shop-product-card">
+                                <div className="home3-pet-foot-shop-product-img">
+                                    <Link to="/home3shopdetailspage">
+                                    <img src={productImg} alt="" />
+                                    </Link>
+                                </div>
+
+                                <Link to="/home3shopdetailspage" className="home3-pet-foot-shop-product-name">
+                                Pedigree Adult Dog Nutrition Food
                                 </Link>
+
+                                <ul className="Category-nd-weight">
+                                  <li><span>Category</span><p><a href="#">Dog Food</a></p></li>
+                                  <li><span>Size : </span><p>385gm</p></li>
+                                </ul>
+
+                                <h4 className="home3-pet-foot-shop-product-price">
+                                $12.00
+                                </h4>
                             </div>
-
-                            <Link to="/home3shopdetailspage" className="home3-pet-foot-shop-product-name">
-                            Pedigree Adult Dog Nutrition Food
-                            </Link>
-
-                            <ul className="Category-nd-weight">
-                              <li><span>Category</span><p><a href="#">Dog Food</a></p></li>
-                              <li><span>Size : </span><p>385gm</p></li>
-                            </ul>
-
-                            <h4 className="home3-pet-foot-shop-product-price">
-                            $12.00
-                            </h4>
                         </div>
-                    </div>
-
-                    <div className="col-xl-4 col-lg-6">
-                        <div className="home3-pet-foot-shop-product-card">
-                            <div className="home3-pet-foot-shop-product-img">
-                             <Link to="/home3shopdetailspage">
-                                <img src={ShopCardImg1} alt="" />
-                                </Link>
-                            </div>
-
-                            <Link to="/home3shopdetailspage" className="home3-pet-foot-shop-product-name">
-                            Pedigree Adult Dog Nutrition Food
-                            </Link>
-
-                            <ul className="Category-nd-weight">
-                              <li><span>Category</span><p><a href="#">Dog Food</a></p></li>
-                              <li><span>Size : </span><p>385gm</p></li>
-                            </ul>
-
-                            <h4 className="home3-pet-foot-shop-product-price">
-                            $12.00
-                            </h4>
-                        </div>
-                    </div>
-
-                    <div className="col-xl-4 col-lg-6">
-                        <div className="home3-pet-foot-shop-product-card">
-                            <div className="home3-pet-foot-shop-product-img">
-                               <Link to="/home3shopdetailspage">
-                                <img src={ShopCardImg1} alt="" />
-                                </Link>
-                            </div>
-
-                            <Link to="/home3shopdetailspage" className="home3-pet-foot-shop-product-name">
-                            Pedigree Adult Dog Nutrition Food
-                            </Link>
-
-                            <ul className="Category-nd-weight">
-                              <li><span>Category</span><p><a href="#">Dog Food</a></p></li>
-                              <li><span>Size : </span><p>385gm</p></li>
-                            </ul>
-
-                            <h4 className="home3-pet-foot-shop-product-price">
-                            $12.00
-                            </h4>
-                        </div>
-                    </div>
-
-                    <div className="col-xl-4 col-lg-6">
-                        <div className="home3-pet-foot-shop-product-card">
-                            <div className="home3-pet-foot-shop-product-img">
-                              <Link to="/home3shopdetailspage">
-                                <img src={ShopCardImg1} alt="" />
-                                </Link>
-                            </div>
-
-                            <Link to="/home3shopdetailspage" className="home3-pet-foot-shop-product-name">
-                            Pedigree Adult Dog Nutrition Food
-                            </Link>
-
-                            <ul className="Category-nd-weight">
-                              <li><span>Category</span><p><a href="#">Dog Food</a></p></li>
-                              <li><span>Size : </span><p>385gm</p></li>
-                            </ul>
-
-                            <h4 className="home3-pet-foot-shop-product-price">
-                            $12.00
-                            </h4>
-                        </div>
-                    </div>
-
-                    <div className="col-xl-4 col-lg-6">
-                        <div className="home3-pet-foot-shop-product-card">
-                            <div className="home3-pet-foot-shop-product-img">
-                               <Link to="/home3shopdetailspage">
-                                <img src={ShopCardImg1} alt="" />
-                                </Link>
-                            </div>
-
-                            <Link to="/home3shopdetailspage" className="home3-pet-foot-shop-product-name">
-                            Pedigree Adult Dog Nutrition Food
-                            </Link>
-
-                            <ul className="Category-nd-weight">
-                              <li><span>Category</span><p><a href="#">Dog Food</a></p></li>
-                              <li><span>Size : </span><p>385gm</p></li>
-                            </ul>
-
-                            <h4 className="home3-pet-foot-shop-product-price">
-                            $12.00
-                            </h4>
-                        </div>
-                    </div>
-
-                    <div className="col-xl-4 col-lg-6">
-                        <div className="home3-pet-foot-shop-product-card">
-                            <div className="home3-pet-foot-shop-product-img">
-                            <Link to="/home3shopdetailspage">
-                                <img src={ShopCardImg1} alt="" />
-                                </Link>
-                            </div>
-
-                            <Link to="/home3shopdetailspage" className="home3-pet-foot-shop-product-name">
-                            Pedigree Adult Dog Nutrition Food
-                            </Link>
-
-                            <ul className="Category-nd-weight">
-                              <li><span>Category</span><p><a href="#">Dog Food</a></p></li>
-                              <li><span>Size : </span><p>385gm</p></li>
-                            </ul>
-
-                            <h4 className="home3-pet-foot-shop-product-price">
-                            $12.00
-                            </h4>
-                        </div>
-                    </div>
-
-                    <div className="col-xl-4 col-lg-6">
-                        <div className="home3-pet-foot-shop-product-card">
-                            <div className="home3-pet-foot-shop-product-img">
-                            <Link to="/home3shopdetailspage">
-                                <img src={ShopCardImg1} alt="" />
-                                </Link>
-                            </div>
-
-                            <Link to="/home3shopdetailspage" className="home3-pet-foot-shop-product-name">
-                            Pedigree Adult Dog Nutrition Food
-                            </Link>
-
-                            <ul className="Category-nd-weight">
-                              <li><span>Category</span><p><a href="#">Dog Food</a></p></li>
-                              <li><span>Size : </span><p>385gm</p></li>
-                            </ul>
-
-                            <h4 className="home3-pet-foot-shop-product-price">
-                            $12.00
-                            </h4>
-                        </div>
-                    </div>
-
-                    <div className="col-xl-4 col-lg-6">
-                        <div className="home3-pet-foot-shop-product-card">
-                            <div className="home3-pet-foot-shop-product-img">
-                            <Link to="/home3shopdetailspage">
-                                <img src={ShopCardImg1} alt="" />
-                                </Link>
-                            </div>
-
-                            <Link to="/home3shopdetailspage" className="home3-pet-foot-shop-product-name">
-                            Pedigree Adult Dog Nutrition Food
-                            </Link>
-
-                            <ul className="Category-nd-weight">
-                              <li><span>Category</span><p><a href="#">Dog Food</a></p></li>
-                              <li><span>Size : </span><p>385gm</p></li>
-                            </ul>
-
-                            <h4 className="home3-pet-foot-shop-product-price">
-                            $12.00
-                            </h4>
-                        </div>
-                    </div>
-
-                    <div className="col-xl-4 col-lg-6">
-                        <div className="home3-pet-foot-shop-product-card">
-                            <div className="home3-pet-foot-shop-product-img">
-                            <Link to="/home3shopdetailspage">
-                                <img src={ShopCardImg1} alt="" />
-                                </Link>
-                            </div>
-
-                            <Link to="/home3shopdetailspage" className="home3-pet-foot-shop-product-name">
-                            Pedigree Adult Dog Nutrition Food
-                            </Link>
-
-                            <ul className="Category-nd-weight">
-                              <li><span>Category</span><a href="#">Dog Food</a></li>
-                              <li><span>Size : </span><p>385gm</p></li>
-                            </ul>
-
-                            <h4 className="home3-pet-foot-shop-product-price">
-                            $12.00
-                            </h4>
-                        </div>
-                    </div>
-
+                      ))}
                     </div>
                 </div>
             </div>

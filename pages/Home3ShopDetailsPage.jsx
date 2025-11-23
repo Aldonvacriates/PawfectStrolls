@@ -37,12 +37,6 @@ import HeartIcon from "../src/assets/home-3/Pedigree-adult-dog/heart-icon.svg"
 import { Link } from "react-router-dom"
 import Accordion from 'react-bootstrap/Accordion';
 
-const DummyImg1 = "https://placehold.co/737x677";
-
-const DummyImg2 = "https://placehold.co/65x65";
-
-const DummyImg3 = "https://placehold.co/300x200";
-
 const Home3ShopDetailsPage = () => {
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
@@ -74,10 +68,10 @@ const Home3ShopDetailsPage = () => {
             <div className="row">
                 <div className="col-lg-6">
                           <div className="Shop-Details-prodouct-cart-img-wrap">
-                            <img className="Shop-Detailsimg prodouct-img1" src={DummyImg1} alt="" />
-                            <img className="Shop-Detailsimg prodouct-img2" src={DummyImg1} alt="" />
-                            <img className="Shop-Detailsimg prodouct-img3" src={DummyImg1} alt="" />
-                            <img className="Shop-Detailsimg prodouct-img4" src={DummyImg1} alt="" />
+                            <img className="Shop-Detailsimg prodouct-img1" src={ProdouctImg1} alt="" />
+                            <img className="Shop-Detailsimg prodouct-img2" src={ProdouctImg2} alt="" />
+                            <img className="Shop-Detailsimg prodouct-img3" src={ProdouctImg3} alt="" />
+                            <img className="Shop-Detailsimg prodouct-img4" src={ProdouctImg4} alt="" />
 
                             <div className="Shop-Details-prodouct-btn-wrap">
                                 <div className="Shop-Details-prodouct-btn"></div>
@@ -134,9 +128,9 @@ const Home3ShopDetailsPage = () => {
                         </div>
 
                         <div className="Shop-Details-prodouct-cart-social-meida">
-                            <a href="#"><img src={DummyImg1} alt="" /></a>
-                            <a href="#"><img src={DummyImg1} alt="" /></a>
-                            <a href="#"><img src={DummyImg1} alt="" /></a>
+                            <a href="#"><img src={Social1} alt="" /></a>
+                            <a href="#"><img src={Social2} alt="" /></a>
+                            <a href="#"><img src={Social3} alt="" /></a>
                         </div>
 
                         
@@ -192,7 +186,7 @@ const Home3ShopDetailsPage = () => {
 
     <div className="Home3-blog-comments-card">
         <div className="Home3-blog-comments-profile-img">
-        <img src={DummyImg2} alt="" />
+        <img src={BlogCommentProfile} alt="" />
         </div>
         <h4 className="comment-person-name">
         Darlene Robertson
@@ -213,7 +207,7 @@ const Home3ShopDetailsPage = () => {
 
     <div className="Home3-blog-comments-card">
         <div className="Home3-blog-comments-profile-img">
-        <img src={DummyImg2} alt="" />
+        <img src={BlogCommentProfile1} alt="" />
         </div>
         <h4 className="comment-person-name">
         Ralph Edwards
@@ -258,10 +252,10 @@ const Home3ShopDetailsPage = () => {
             <h3 className="home3-shopdetail-Related-products-tit">Related products</h3>
             <div className="row">
                 <div className="col-xl-3 col-lg-4 col-md-6">
-                    <div class="home3-pet-foot-shop-product-card"> 
+                        <div class="home3-pet-foot-shop-product-card"> 
                         <div class="home3-pet-foot-shop-product-img">
                             <Link to="/home3shopdetailspage">
-                            <img src={DummyImg3} alt="" />
+                            <img src={RelatedProductsImg1} alt="" />
                             </Link>
                             </div>
                             <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
@@ -276,7 +270,7 @@ const Home3ShopDetailsPage = () => {
                     <div class="home3-pet-foot-shop-product-card">
                         <div class="home3-pet-foot-shop-product-img">
                         <Link to="/home3shopdetailspage">
-                            <img src={DummyImg3} alt="" />
+                            <img src={RelatedProductsImg2} alt="" />
                             </Link>
                             </div>
                             <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
@@ -291,7 +285,7 @@ const Home3ShopDetailsPage = () => {
                     <div class="home3-pet-foot-shop-product-card">
                         <div class="home3-pet-foot-shop-product-img">
                              <Link to="/home3shopdetailspage">
-                            <img src={DummyImg3} alt="" />
+                            <img src={RelatedProductsImg3} alt="" />
                             </Link>
                             </div>
                             <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
@@ -306,7 +300,7 @@ const Home3ShopDetailsPage = () => {
                     <div class="home3-pet-foot-shop-product-card">
                         <div class="home3-pet-foot-shop-product-img">
                             <Link to="/home3shopdetailspage">
-                            <img src={DummyImg3} alt="" />
+                            <img src={RelatedProductsImg4} alt="" />
                             </Link>
                             </div>
                             <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
@@ -321,7 +315,7 @@ const Home3ShopDetailsPage = () => {
                     <div class="home3-pet-foot-shop-product-card">
                         <div class="home3-pet-foot-shop-product-img">
                              <Link to="/home3shopdetailspage">
-                            <img src={DummyImg3} alt="" />
+                            <img src={RelatedProductsImg5} alt="" />
                             </Link> 
                             </div>
                             <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
@@ -336,7 +330,7 @@ const Home3ShopDetailsPage = () => {
                     <div class="home3-pet-foot-shop-product-card">
                         <div class="home3-pet-foot-shop-product-img">
                            <Link to="/home3shopdetailspage">
-                            <img src={DummyImg3} alt="" />
+                            <img src={RelatedProductsImg6} alt="" />
                             </Link>
                             </div>
                             <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
@@ -351,7 +345,7 @@ const Home3ShopDetailsPage = () => {
                     <div class="home3-pet-foot-shop-product-card">
                         <div class="home3-pet-foot-shop-product-img">
                         <Link to="/home3shopdetailspage">
-                            <img src={DummyImg3} alt="" />
+                            <img src={RelatedProductsImg7} alt="" />
                             </Link>
                             </div>
                             <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
@@ -366,7 +360,7 @@ const Home3ShopDetailsPage = () => {
                     <div class="home3-pet-foot-shop-product-card">
                         <div class="home3-pet-foot-shop-product-img">
                         <Link to="/home3shopdetailspage">
-                            <img src={DummyImg3} alt="" />
+                            <img src={RelatedProductsImg8} alt="" />
                             </Link>
                             </div>
                             <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>

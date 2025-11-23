@@ -4,7 +4,6 @@ import Img3 from "../src/assets/home/what-we-do/what-we-do-img3.png"
 
 
 const WhatWeDo = () => {
-   const whatWedoCardImg = "https://placehold.co/417x270"
 
   return (
     <>
@@ -15,10 +14,10 @@ const WhatWeDo = () => {
         <div className="container">
             <div className="row">
                 <div className="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                    <div className="what-we-do-cards"  >
+                        <div className="what-we-do-cards"  >
                         <div className="what-we-do-card-img">
                             <a href="#">
-                            <img src={whatWedoCardImg} alt="" />
+                            <img src={Img1} alt="" />
                             </a>
                         </div>
                         <a href="#" className="what-we-do-card-tit">
@@ -37,7 +36,7 @@ const WhatWeDo = () => {
                     <div className="what-we-do-cards"  >
                         <div className="what-we-do-card-img animate__animated animate__bounce" >
                             <a href="#">
-                            <img src={whatWedoCardImg} alt="" />
+                            <img src={Img2} alt="" />
                             </a>
                         </div>
 
@@ -57,7 +56,7 @@ const WhatWeDo = () => {
                     <div className="what-we-do-cards"  >
                         <div className="what-we-do-card-img">
                             <a href="#">
-                            <img src={whatWedoCardImg} alt="" />
+                            <img src={Img3} alt="" />
                             </a>
                         </div>
 

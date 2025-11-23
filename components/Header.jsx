@@ -181,8 +181,8 @@ const Header = () => {
                       >
                         <img src={Icon} alt="" />
                       </button>
-                      <Link to="/home2">Home 2</Link>
-                      <Link to="/home3">Home 3</Link>
+                      {/* <Link to="/home2">Home 2</Link>
+                      <Link to="/home3">Home 3</Link> */}
                     </li>
                   </ul>
                 </li>

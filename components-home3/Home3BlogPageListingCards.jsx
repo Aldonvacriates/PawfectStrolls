@@ -7,23 +7,16 @@ import Img5 from "../src/assets/home-3/Home3BlogSec/Blog-img-5.png"
 import Img6 from "../src/assets/home-3/Home3BlogSec/Blog-img-6.png"
 
 
-// import Author1 from "../src/assets/home-3/Home3BlogSec/pro-1.png"
-// import Author2 from "../src/assets/home-3/Home3BlogSec/pro-2.png"
-// import Author3 from "../src/assets/home-3/Home3BlogSec/pro-3.png"
-// import Author4 from "../src/assets/home-3/Home3BlogSec/pro-4.png"
-// import Author5 from "../src/assets/home-3/Home3BlogSec/pro-5.png"
-// import Author6 from "../src/assets/home-3/Home3BlogSec/pro-6.png"
+import Author1 from "../src/assets/home-3/Home3BlogSec/pro-1.png"
+import Author2 from "../src/assets/home-3/Home3BlogSec/pro-2.png"
+import Author3 from "../src/assets/home-3/Home3BlogSec/pro-3.png"
+import Author4 from "../src/assets/home-3/Home3BlogSec/pro-4.png"
+import Author5 from "../src/assets/home-3/Home3BlogSec/pro-5.png"
+import Author6 from "../src/assets/home-3/Home3BlogSec/pro-6.png"
 import { Link } from "react-router-dom"
 
 
 const Home3BlogPageListingCards = () => {
-    const blogCardImg = "https://placehold.co/406x273"
-    const Author1 = "https://placehold.co/41x41"
-    const Author2 = "https://placehold.co/41x41"
-    const Author3 = "https://placehold.co/41x41"
-    const Author4 = "https://placehold.co/41x41"
-    const Author5 = "https://placehold.co/41x41"
-    const Author6 = "https://placehold.co/41x41"
   return (
     <>
      <section className="home3-Our-Blogs-sec">
@@ -33,7 +26,7 @@ const Home3BlogPageListingCards = () => {
                     <div className="home-3-blog-card">
                         <div className="home-3-blog-card-img">
                             <Link to="/BlogListingpage" >
-                            <img src={blogCardImg} alt="" />
+                            <img src={Img1} alt="" />
                             </Link>
                         </div>
                         <Link to="/BlogListingpage" className="home-3-blog-mini-tit">Breeding</Link>
@@ -60,7 +53,7 @@ const Home3BlogPageListingCards = () => {
                     <div  href="#" className="home-3-blog-card">
                         <div className="home-3-blog-card-img">
                           <Link to="/BlogListingpage" >
-                            <img src={blogCardImg} alt="" />
+                            <img src={Img2} alt="" />
                             </Link>
                         </div>
                         <Link to="/BlogListingpage" className="home-3-blog-mini-tit">Breeding</Link>
@@ -87,7 +80,7 @@ const Home3BlogPageListingCards = () => {
                     <div href=" #" className="home-3-blog-card">
                         <div className="home-3-blog-card-img">
                            <Link to="/BlogListingpage" >
-                            <img src={blogCardImg} alt="" />
+                            <img src={Img3} alt="" />
                             </Link>
                         </div>
                         <Link to="/BlogListingpage" className="home-3-blog-mini-tit">Breeding</Link>
@@ -114,7 +107,7 @@ const Home3BlogPageListingCards = () => {
                     <div href="#" className="home-3-blog-card">
                         <div className="home-3-blog-card-img">
                             <Link to="/BlogListingpage" >
-                            <img src={blogCardImg} alt="" />
+                            <img src={Img4} alt="" />
                             </Link>
                         </div>
                         <Link to="/BlogListingpage" className="home-3-blog-mini-tit">Breeding</Link>
@@ -141,7 +134,7 @@ const Home3BlogPageListingCards = () => {
                     <div href="#" className="home-3-blog-card">
                         <div className="home-3-blog-card-img">
                            <Link to="/BlogListingpage" >
-                            <img src={blogCardImg} alt="" />
+                            <img src={Img5} alt="" />
                             </Link>
                         </div>
                         <Link to="/BlogListingpage" className="home-3-blog-mini-tit">Breeding</Link>
@@ -168,7 +161,7 @@ const Home3BlogPageListingCards = () => {
                     <div href="#" className="home-3-blog-card">
                         <div className="home-3-blog-card-img">
                            <Link to="/BlogListingpage" >
-                            <img src={blogCardImg} alt="" />
+                            <img src={Img6} alt="" />
                             </Link>
                         </div>
                         <Link to="/BlogListingpage" className="home-3-blog-mini-tit">Breeding</Link>

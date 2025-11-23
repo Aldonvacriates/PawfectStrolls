@@ -11,7 +11,6 @@ import Linkedin from "../src/assets/home/our-groomers/linkedin.svg"
 
 
 const OurGroomers = () => {
-   const ImgOurGroomers = "https://placehold.co/274x274"
 
   return (
     <>
@@ -25,7 +24,7 @@ const OurGroomers = () => {
                 <div className="col-lg-3 col-md-6" >
                     <div className="our-groomers-card" data-aos="zoom-out-up" data-aos-delay="50" data-aos-duration="1000">
                         <div className="our-groomers-card-main-img">
-                            <img className="ImgOurGroomers" src={ImgOurGroomers} width="274" height="286" alt="" />
+                            <img className="ImgOurGroomers" src={OurGroomers1} width="274" height="286" alt="" />
                             <img className="our-groomers-card-bg-img" src={Ellipse} alt="" />
                         </div>
 
@@ -53,7 +52,7 @@ const OurGroomers = () => {
                 <div className="col-lg-3 col-md-6">
                     <div className="our-groomers-card" data-aos="zoom-out-up" data-aos-delay="150" data-aos-duration="1000">
                         <div className="our-groomers-card-main-img">
-                            <img className="ImgOurGroomers" src={ImgOurGroomers} width="274" height="286" alt="" />
+                            <img className="ImgOurGroomers" src={OurGroomers2} width="274" height="286" alt="" />
                             <img className="our-groomers-card-bg-img" src={Ellipse} alt="" />
                         </div>
 
@@ -81,7 +80,7 @@ const OurGroomers = () => {
                 <div className="col-lg-3 col-md-6">
                     <div className="our-groomers-card" data-aos="zoom-out-up" data-aos-delay="250" data-aos-duration="1000">
                         <div className="our-groomers-card-main-img">
-                            <img className="ImgOurGroomers" src={ImgOurGroomers} width="274" height="286" alt="" />
+                            <img className="ImgOurGroomers" src={OurGroomers3} width="274" height="286" alt="" />
                             <img className="our-groomers-card-bg-img" src={Ellipse} alt="" />
                         </div>
 
@@ -109,7 +108,7 @@ const OurGroomers = () => {
                 <div className="col-lg-3 col-md-6">
                     <div className="our-groomers-card" data-aos="zoom-out-up" data-aos-delay="350" data-aos-duration="1000">
                         <div className="our-groomers-card-main-img">
-                            <img className="ImgOurGroomers" src={ImgOurGroomers} width="274" height="286" alt="" />
+                            <img className="ImgOurGroomers" src={OurGroomers4} width="274" height="286" alt="" />
                             <img className="our-groomers-card-bg-img" src={Ellipse} alt="" />
                         </div>
 

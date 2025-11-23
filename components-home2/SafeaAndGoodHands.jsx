@@ -1,7 +1,7 @@
 import SafeaAndGoodHandsimg1 from "../src/assets/home-2/SafeaAndGoodHands/home2-SafeaAndGoodHands.png"
 
 const SafeaAndGoodHands = () => {
-  const SafeaAndGoodHandsMainImg = "https://placehold.co/737x677"
+  const SafeaAndGoodHandsMainImg = SafeaAndGoodHandsimg1;
   // const SafeaAndGoodHandsMainImg = "https://placehold.co/622x572"
   return (
     <>

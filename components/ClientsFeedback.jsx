@@ -1,9 +1,9 @@
 import React, { useRef, useState } from 'react';
 
 // import SwiperProfile from "../src/assets/home/clients-feedback/swiper-profile.png"
-// import profile1 from "../src/assets/home/clients-feedback/profile-1.jpg";
-// import profile2 from "../src/assets/home/clients-feedback/profile-2.jpg";
-// import profile3 from "../src/assets/home/clients-feedback/profile-3.jpg";
+import profile1 from "../src/assets/home/clients-feedback/profile-1.png";
+import profile2 from "../src/assets/home/clients-feedback/profile-2.png";
+import profile3 from "../src/assets/home/clients-feedback/profile-3.png";
 // Import Swiper React components
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -18,7 +18,6 @@ import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/module
 
 
 const ClientsFeedback = () => {
-    const profile1 = "https://placehold.co/100x100"
   return (
     <>
     <section className="clients-feedback-sec">
@@ -55,7 +54,7 @@ const ClientsFeedback = () => {
                         <div className="swiper-Slide-card">
                         <div className="swiper-Slide-inner-card">
                             <div className="swiper-Slide-inner-img">
-                              <img src={profile1} alt="" />
+                              <img src={profile2} alt="" />
                             </div>
                             <h4 className="swiper-Slide-tit">
                             Mason Ryder
@@ -68,7 +67,7 @@ const ClientsFeedback = () => {
                         <div className="swiper-Slide-card">
                         <div className="swiper-Slide-inner-card">
                             <div className="swiper-Slide-inner-img">
-                              <img src={profile1} alt="" />
+                              <img src={profile3} alt="" />
                             </div>
                             <h4 className="swiper-Slide-tit">
                             Jesse Steele

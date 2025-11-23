@@ -1,20 +1,15 @@
-// import SideBarImg1 from  "../src/assets/home-3/blog-detail-page/side-bar-img1.png"
-// import SideBarImg2 from "../src/assets/home-3/blog-detail-page/side-bar-img2.png"
-// import RecentPost1 from "../src/assets/home-3/blog-detail-page/side-bar-recent-posts1.png"
-// import RecentPost2 from "../src/assets/home-3/blog-detail-page/side-bar-recent-posts2.png"
-// import RecentPost3 from "../src/assets/home-3/blog-detail-page/side-bar-recent-posts3.png"
-// import RecentPost4 from "../src/assets/home-3/blog-detail-page/side-bar-recent-posts4.png"
+import SideBarImg1 from  "../src/assets/home-3/blog-detail-page/side-bar-img1.png"
+import SideBarImg2 from "../src/assets/home-3/blog-detail-page/side-bar-img2.png"
+import RecentPost1 from "../src/assets/home-3/blog-detail-page/side-bar-recent-posts1.png"
+import RecentPost2 from "../src/assets/home-3/blog-detail-page/side-bar-recent-posts2.png"
+import RecentPost3 from "../src/assets/home-3/blog-detail-page/side-bar-recent-posts3.png"
+import RecentPost4 from "../src/assets/home-3/blog-detail-page/side-bar-recent-posts4.png"
 
 import { Link } from "react-router-dom"
 
 
 
 const BlogDetailPageSideBar = () => {
-
-    const RecentPost1 = "https://placehold.co/80x75";
-    const SideBarImg1 = "https://placehold.co/447x596";
-
-    const SideBarImg2 = "https://placehold.co/447x633"
 
   return (
     <>
@@ -28,24 +23,24 @@ const BlogDetailPageSideBar = () => {
 
         <div className="home3-blog-side-bar-recent-cards">
             <img src={RecentPost1} alt="" />
-            <Link to="/BlogListingpage">Tips and tricks: Puppy’s First Grooming</Link>
+            <Link to="/BlogListingpage">Tips and tricks: Puppy's First Grooming</Link>
         </div>
 
         <div className="home3-blog-side-bar-recent-cards">
-            <img src={RecentPost1} alt="" />
+            <img src={RecentPost2} alt="" />
 
-            <Link to="/BlogListingpage">Tips and tricks: Puppy’s First Grooming</Link>
+            <Link to="/BlogListingpage">Tips and tricks: Puppy's First Grooming</Link>
         </div>
 
         <div className="home3-blog-side-bar-recent-cards">
-            <img src={RecentPost1} alt="" />
+            <img src={RecentPost3} alt="" />
 
-            <Link to="/BlogListingpage">Tips and tricks: Puppy’s First Grooming</Link>
+            <Link to="/BlogListingpage">Tips and tricks: Puppy's First Grooming</Link>
         </div>
 
 
         <div className="home3-blog-side-bar-recent-cards home3-blog-side-bar-recent-cards-last">
-            <img src={RecentPost1} alt="" />
+            <img src={RecentPost4} alt="" />
 
             <Link to="/BlogListingpage">Tips and tricks: Puppy’s First Grooming</Link>
         </div>

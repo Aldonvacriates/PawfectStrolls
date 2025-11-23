@@ -1,30 +1,24 @@
-import Starts from "../src/assets/home-3/Home3TestimonialCard/stars.png"
-
-
-import PrifleImg1 from "../src/assets/home-3/Home3TestimonialCard/card-profile-2.png"
-import PrifleImg2 from "../src/assets/home-3/Home3TestimonialCard/card-profile-1.png"
-import PrifleImg3 from "../src/assets/home-3/Home3TestimonialCard/card-profile-3.png"
-
-
-import Arrow from "../src/assets/common/w-down-arrow.png"
-
-
-import React, { useRef, useState } from 'react';
-// Import Swiper React components
+import React from 'react';
+import Starts from "../src/assets/home-3/Home3TestimonialCard/stars.png";
+import PrifleImg1 from "../src/assets/home-3/Home3TestimonialCard/card-profile-2.png";
+import PrifleImg2 from "../src/assets/home-3/Home3TestimonialCard/card-profile-1.png";
+import PrifleImg3 from "../src/assets/home-3/Home3TestimonialCard/card-profile-3.png";
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
+import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
-// import required modules
-import { EffectCoverflow, Pagination  ,Navigation } from 'swiper/modules';
+const testimonials = [
+  { img: PrifleImg1, name: "Freddie Deckow", role: "Lead Marketing Administrator" },
+  { img: PrifleImg2, name: "Courtney Henry", role: "Pet Owner" },
+  { img: PrifleImg3, name: "Cameron Williamson", role: "Pet Parent" },
+  { img: PrifleImg1, name: "Jacob Jones", role: "Dog Trainer" },
+  { img: PrifleImg2, name: "Eleanor Pena", role: "Pet Lover" },
+  { img: PrifleImg3, name: "Devon Lane", role: "Grooming Client" },
+];
 
 const Home3Testimonial = () => {
-
-  const TestimonialCardImg = "https://placehold.co/265x265"
- 
   const pagination = {
     clickable: true,
   };
@@ -34,7 +28,6 @@ const Home3Testimonial = () => {
     <section className="Home3-Testimonial-sec">
 
     <div className="home3-Testimonial-tit-wraper">
-            {/* <span className="home3-Testimonial-mini-tit">Our <b>Service</b></span> */}
             <h3 className="home3-Testimonial-mini-tit home3-Testimonial-main-tit">Customers   <b> Words</b></h3>
     </div>
 
@@ -72,163 +65,34 @@ const Home3Testimonial = () => {
         modules={[EffectCoverflow, Pagination , Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <div className="Home3-Testimonial-sec-card">
-            <div className="Home3-Testimonial-card-tit">
-            Testimonial
+        {testimonials.map((testimonial, idx) => (
+          <SwiperSlide key={idx}>
+            <div className="Home3-Testimonial-sec-card">
+              <div className="Home3-Testimonial-card-tit">
+              Testimonial
+              </div>
+              <div className="Home3-Testimonial-card-rating">
+              <img src={Starts} alt="5 star rating" />
+              </div>
+
+              <div className="Home3-Testimonial-card-profile">
+                  <img src={testimonial.img} alt={`${testimonial.name} profile`} />
+              </div>
+
+              <h4 className="Home3-Testimonial-profile-name">
+              {testimonial.name}
+              </h4>
+
+              <span className="Home3-Testimonial-profile">
+              {testimonial.role}
+              </span>
+
+              <p>
+              Donec et odio pellentesque diam volutpat commodo sed egestas. Rhoncus urna neque viverra justo nec ultrices varius morbi enim nunc faucibusmalesuada fames ac turpis egestas maecenas.
+              </p>
             </div>
-            <div className="Home3-Testimonial-card-rating">
-            ⭐⭐⭐⭐⭐
-            </div>
-
-            <div className="Home3-Testimonial-card-profile">
-                <img src={TestimonialCardImg} alt="" />
-            </div>
-
-            <h4 className="Home3-Testimonial-profile-name">
-            Freddie Deckow
-            </h4>
-
-            <span className="Home3-Testimonial-profile">
-            Lead Marketing Administrator
-            </span>
-
-            <p>
-            Donec et odio pellentesque diam volutpat commodo sed egestas. Rhoncus urna neque viverra justo nec ultrices varius morbi enim nunc faucibusmalesuada fames ac turpis egestas maecenas.
-            </p>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="Home3-Testimonial-sec-card">
-            <div className="Home3-Testimonial-card-tit">
-            Testimonial
-            </div>
-            <div className="Home3-Testimonial-card-rating">
-            ⭐⭐⭐⭐⭐
-            </div>
-
-            <div className="Home3-Testimonial-card-profile">
-                <img src={TestimonialCardImg} alt="" />
-            </div>
-
-            <h4 className="Home3-Testimonial-profile-name">
-            Freddie Deckow
-            </h4>
-
-            <span className="Home3-Testimonial-profile">
-            Lead Marketing Administrator
-            </span>
-
-            <p>
-            Donec et odio pellentesque diam volutpat commodo sed egestas. Rhoncus urna neque viverra justo nec ultrices varius morbi enim nunc faucibusmalesuada fames ac turpis egestas maecenas.
-            </p>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="Home3-Testimonial-sec-card">
-            <div className="Home3-Testimonial-card-tit">
-            Testimonial
-            </div>
-            <div className="Home3-Testimonial-card-rating">
-            ⭐⭐⭐⭐⭐
-            </div>
-
-            <div className="Home3-Testimonial-card-profile">
-                <img src={TestimonialCardImg} alt="" />
-            </div>
-
-            <h4 className="Home3-Testimonial-profile-name">
-            Freddie Deckow
-            </h4>
-
-            <span className="Home3-Testimonial-profile">
-            Lead Marketing Administrator
-            </span>
-
-            <p>
-            Donec et odio pellentesque diam volutpat commodo sed egestas. Rhoncus urna neque viverra justo nec ultrices varius morbi enim nunc faucibusmalesuada fames ac turpis egestas maecenas.
-            </p>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="Home3-Testimonial-sec-card">
-            <div className="Home3-Testimonial-card-tit">
-            Testimonial
-            </div>
-            <div className="Home3-Testimonial-card-rating">
-            ⭐⭐⭐⭐⭐
-            </div>
-
-            <div className="Home3-Testimonial-card-profile">
-                <img src={TestimonialCardImg} alt="" />
-            </div>
-
-            <h4 className="Home3-Testimonial-profile-name">
-            Freddie Deckow
-            </h4>
-
-            <span className="Home3-Testimonial-profile">
-            Lead Marketing Administrator
-            </span>
-
-            <p>
-            Donec et odio pellentesque diam volutpat commodo sed egestas. Rhoncus urna neque viverra justo nec ultrices varius morbi enim nunc faucibusmalesuada fames ac turpis egestas maecenas.
-            </p>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="Home3-Testimonial-sec-card">
-            <div className="Home3-Testimonial-card-tit">
-            Testimonial
-            </div>
-            <div className="Home3-Testimonial-card-rating">
-            ⭐⭐⭐⭐⭐
-            </div>
-
-            <div className="Home3-Testimonial-card-profile">
-                <img src={TestimonialCardImg} alt="" />
-            </div>
-
-            <h4 className="Home3-Testimonial-profile-name">
-            Freddie Deckow
-            </h4>
-
-            <span className="Home3-Testimonial-profile">
-            Lead Marketing Administrator
-            </span>
-
-            <p>
-            Donec et odio pellentesque diam volutpat commodo sed egestas. Rhoncus urna neque viverra justo nec ultrices varius morbi enim nunc faucibusmalesuada fames ac turpis egestas maecenas.
-            </p>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="Home3-Testimonial-sec-card">
-            <div className="Home3-Testimonial-card-tit">
-            Testimonial
-            </div>
-            <div className="Home3-Testimonial-card-rating">
-            ⭐⭐⭐⭐⭐
-            </div>
-
-            <div className="Home3-Testimonial-card-profile">
-                <img src={TestimonialCardImg} alt="" />
-            </div>
-
-            <h4 className="Home3-Testimonial-profile-name">
-            Freddie Deckow
-            </h4>
-
-            <span className="Home3-Testimonial-profile">
-            Lead Marketing Administrator
-            </span>
-
-            <p>
-            Donec et odio pellentesque diam volutpat commodo sed egestas. Rhoncus urna neque viverra justo nec ultrices varius morbi enim nunc faucibusmalesuada fames ac turpis egestas maecenas.
-            </p>
-          </div>
-        </SwiperSlide>
-        
+          </SwiperSlide>
+        ))}
       </Swiper>
                 </div>
             </div>

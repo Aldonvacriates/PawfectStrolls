@@ -3,7 +3,7 @@ import Social2 from "../src/assets/home-3/Home3-Pet-SItters-sec/linkedin.svg"
 import Social3 from "../src/assets/home-3/Home3-Pet-SItters-sec/behance.svg"
 import Social4 from "../src/assets/home-3/Home3-Pet-SItters-sec/dribbble.svg"
 
-// import Sitters1 from "../src/assets/home-3/Home3-Pet-SItters-sec/Sitters-1.png"
+import Sitters1 from "../src/assets/home-3/Home3-Pet-SItters-sec/Sitters-1.png"
 import Sitters2 from "../src/assets/home-3/Home3-Pet-SItters-sec/Sitters-2.png"
 import Sitters3 from "../src/assets/home-3/Home3-Pet-SItters-sec/Sitters-3.png"
 import Sitters4 from "../src/assets/home-3/Home3-Pet-SItters-sec/Sitters-4.png"
@@ -14,8 +14,6 @@ import { Link } from "react-router-dom"
 
 
 const Home3PetSItters = () => {
-
-    const Sitters1 = "https://placehold.co/447x347"
 
   return (
     <>
@@ -52,7 +50,7 @@ const Home3PetSItters = () => {
                     <div className="Home3-Pet-SItters-listing-cards">
                         <div className="Home3-Pet-SItters-listing-main-img">
                            <Link to="/cameronwilliamsonpage" >
-                            <img src={Sitters1} alt="" />
+                            <img src={Sitters2} alt="" />
                             </Link>
                         </div>
 
@@ -79,7 +77,7 @@ const Home3PetSItters = () => {
                     <div className="Home3-Pet-SItters-listing-cards">
                         <div className="Home3-Pet-SItters-listing-main-img">
                            <Link to="/cameronwilliamsonpage" >
-                            <img src={Sitters1} alt="" />
+                            <img src={Sitters3} alt="" />
                             </Link>
                         </div>
 
@@ -105,7 +103,7 @@ const Home3PetSItters = () => {
                     <div className="Home3-Pet-SItters-listing-cards">
                         <div className="Home3-Pet-SItters-listing-main-img">
                            <Link to="/cameronwilliamsonpage" >
-                            <img src={Sitters1} alt="" />
+                            <img src={Sitters4} alt="" />
                             </Link>
                         </div>
 
@@ -132,7 +130,7 @@ const Home3PetSItters = () => {
                     <div className="Home3-Pet-SItters-listing-cards">
                         <div className="Home3-Pet-SItters-listing-main-img">
                         <Link to="/cameronwilliamsonpage" >
-                            <img src={Sitters1} alt="" />
+                            <img src={Sitters5} alt="" />
                             </Link>
                         </div>
 
@@ -158,7 +156,7 @@ const Home3PetSItters = () => {
                     <div className="Home3-Pet-SItters-listing-cards">
                         <div className="Home3-Pet-SItters-listing-main-img">
                            <Link to="/cameronwilliamsonpage" >
-                            <img src={Sitters1} alt="" />
+                            <img src={Sitters6} alt="" />
                             </Link>
                         </div>
 

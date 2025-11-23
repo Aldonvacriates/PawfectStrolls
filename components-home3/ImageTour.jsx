@@ -13,16 +13,6 @@ import ReactFancyBox from 'react-fancybox'
 import 'react-fancybox/lib/fancybox.css'
 
 const ImageTour = () => {
-      const gImg1 = "https://placehold.co/235x304"
-      const gImg2 = "https://placehold.co/534x304"
-      const gImg3 = "https://placehold.co/254x304"
-      const gImg4 = "https://placehold.co/519x460"
-      const gImg5 = "https://placehold.co/537x460"
-
-      const gImg9 = "https://placehold.co/254x516"
-
-
-
   return (
     <>
     <section className="Image-Tour-sec">
@@ -38,53 +28,53 @@ const ImageTour = () => {
                  <div className="Image-Tour-img-wrap-col-1">
                     <div className="Image-Tour-imgs Tourimg1">
                         <ReactFancyBox
-                          thumbnail={gImg1}
-                          image={gImg1} />
+                          thumbnail={Img1}
+                          image={Img1} />
                     </div>
                     <div className="Image-Tour-imgs Tourimg2">
                     <ReactFancyBox
-                          thumbnail={gImg2}
-                          image={gImg2} />
+                          thumbnail={Img2}
+                          image={Img2} />
                     </div>
                     <div className="Image-Tour-imgs Tourimg3">
                     <ReactFancyBox
-                          thumbnail={gImg3}
-                          image={gImg3} />
+                          thumbnail={Img3}
+                          image={Img3} />
                     </div>
                     <div className="Image-Tour-imgs Tourimg4">
                     <ReactFancyBox
-                          thumbnail={gImg9}
-                          image={gImg9} />
+                          thumbnail={Img9}
+                          image={Img9} />
                     </div>
                     <div className="Image-Tour-imgs Tourimg5">
                        <ReactFancyBox
-                          thumbnail={gImg4}
-                          image={gImg4} />
+                          thumbnail={Img4}
+                          image={Img4} />
                     </div>
                     <div className="Image-Tour-imgs Tourimg6">
                          <ReactFancyBox
-                          thumbnail={gImg5}
-                          image={gImg5} />
+                          thumbnail={Img5}
+                          image={Img5} />
                     </div>
                     <div className="Image-Tour-imgs Tourimg7">
                          <ReactFancyBox
-                          thumbnail={gImg9}
-                          image={gImg9} />
+                          thumbnail={Img6}
+                          image={Img6} />
                     </div>
                     <div className="Image-Tour-imgs Tourimg8">
                          <ReactFancyBox
-                          thumbnail={gImg1}
-                          image={gImg1} />
+                          thumbnail={Img7}
+                          image={Img7} />
                     </div>
                     <div className="Image-Tour-imgs Tourimg9">
                            <ReactFancyBox
-                          thumbnail={gImg2}
-                          image={gImg2} />
+                          thumbnail={Img8}
+                          image={Img8} />
                     </div>
                     <div className="Image-Tour-imgs Tourimg10">
                         <ReactFancyBox
-                          thumbnail={gImg3}
-                          image={gImg3} />
+                          thumbnail={Img9}
+                          image={Img9} />
                     </div>
                     
                     

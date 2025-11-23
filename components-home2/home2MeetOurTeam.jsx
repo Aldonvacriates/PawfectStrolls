@@ -9,7 +9,6 @@ import Img7 from "../src/assets/home-2/home2-Meet-Our-team/twitter.svg"
 
 
 const Home2MeetOurTeam = () => {
-    const MeetOurTeamImg = "https://placehold.co/437x444"
   return (
     <>
     <section className="home2-Meet-Our-Team-sec">
@@ -21,7 +20,7 @@ const Home2MeetOurTeam = () => {
                 <div className="col-lg-4">
                     <div className="home2-Meet-Our-Team-sec-card">
                         <div className="home2-Meet-Our-Team-sec-card-img home2-Meet-Our-Team-sec-card-img1">
-                            <img src={MeetOurTeamImg} alt="" />
+                            <img src={Img1} alt="" />
                         </div>
                        <h4 className="home2-Meet-Our-Team-name">
                        Sierra Blake
@@ -44,7 +43,7 @@ const Home2MeetOurTeam = () => {
                 <div className="col-lg-4">
                     <div className="home2-Meet-Our-Team-sec-card">
                         <div className="home2-Meet-Our-Team-sec-card-img">
-                            <img src={MeetOurTeamImg} alt="" />
+                            <img src={Img2} alt="" />
                         </div>
                        <h4 className="home2-Meet-Our-Team-name">
                        Skylar Quinn
@@ -66,7 +65,7 @@ const Home2MeetOurTeam = () => {
                 <div className="col-lg-4">
                     <div className="home2-Meet-Our-Team-sec-card">
                         <div className="home2-Meet-Our-Team-sec-card-img">
-                            <img src={MeetOurTeamImg} alt="" />
+                            <img src={Img3} alt="" />
                         </div>
                        <h4 className="home2-Meet-Our-Team-name">
                        Ruby Harper

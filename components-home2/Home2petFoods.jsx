@@ -6,7 +6,6 @@ import Img4 from "../src/assets/home-2/pet-food-sec/home2-pet-food-tit3.png"
 
 
 const Home2petFoods = () => {
-   const petFoodImg = "https://placehold.co/229x214"
 
   return (
     <section className="home2-pet-food-sec">
@@ -15,7 +14,7 @@ const Home2petFoods = () => {
                 <div className="col-lg-3 col-md-6">
                     <div className="home2-pet-food-card">
                         <div className="home2-pet-food-img home2-pet-food-img1">
-                            <img src={petFoodImg} alt="" />
+                            <img src={Img1} alt="" />
                         </div>
 
                         <h4 className="home2-pet-food-tit" >Pet Care</h4>
@@ -26,7 +25,7 @@ const Home2petFoods = () => {
                 <div className="col-lg-3 col-md-6">
                     <div className="home2-pet-food-card">
                         <div className="home2-pet-food-img home2-pet-food-img2">
-                            <img src={petFoodImg} alt="" />
+                            <img src={Img2} alt="" />
                         </div>
 
                         <h4 className="home2-pet-food-tit" >Pet Care</h4>
@@ -37,7 +36,7 @@ const Home2petFoods = () => {
                 <div className="col-lg-3 col-md-6">
                     <div className="home2-pet-food-card">
                         <div className="home2-pet-food-img home2-pet-food-img3">
-                            <img src={petFoodImg} alt="" />
+                            <img src={Img3} alt="" />
                         </div>
 
                         <h4 className="home2-pet-food-tit" >Pet Care</h4>
@@ -48,7 +47,7 @@ const Home2petFoods = () => {
                 <div className="col-lg-3 col-md-6">
                     <div className="home2-pet-food-card">
                         <div className="home2-pet-food-img home2-pet-food-img4">
-                            <img src={petFoodImg} alt="" />
+                            <img src={Img4} alt="" />
                         </div>
 
                         <h4 className="home2-pet-food-tit" >Pet Care</h4>

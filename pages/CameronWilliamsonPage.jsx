@@ -1,14 +1,12 @@
 import Home3Header from "../components-home3/Home3Header"
 import Home3Footer from "../components-home3/Home3Footer"
 import BlogDetailPageSideBar from "../components-blog-detail/BlogDetailPageSideBar"
-// import BlogMainImg from "../src/assets/home-3/Cameron-Williamson/cameron-williamson-1.png"
+import BlogMainImg from "../src/assets/home-3/Cameron-Williamson/cameron-williamson-1.png"
 import BlogMainIm1 from "../src/assets/home-3/Cameron-Williamson/home3-blog-detail-page-img.png"
 import { Link } from "react-router-dom"
 
 const CameronWilliamsonPage = () => {
 
-    const BlogMainImg = "https://placehold.co/921x488";
-    const BlogMainIm1 = "https://placehold.co/447x575"
   return (
     <>
     <Home3Header />

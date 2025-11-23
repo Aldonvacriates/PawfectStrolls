@@ -3,17 +3,13 @@ import Img2 from "../src/assets/home-3/Home3BlogSec/Blog-img-2.png"
 import Img3 from "../src/assets/home-3/Home3BlogSec/Blog-img-3.png"
 
 
-// import Author1 from "../src/assets/home-3/Home3BlogSec/pro-1.png"
-// import Author2 from "../src/assets/home-3/Home3BlogSec/pro-2.png"
-// import Author3 from "../src/assets/home-3/Home3BlogSec/pro-3.png"
+import Author1Img from "../src/assets/home-3/Home3BlogSec/pro-1.png"
+import Author2Img from "../src/assets/home-3/Home3BlogSec/pro-2.png"
+import Author3Img from "../src/assets/home-3/Home3BlogSec/pro-3.png"
 
 import { Link } from "react-router-dom"
 
 const Home3BlogsSec = () => {
-    const blogCardImg = "https://placehold.co/406x273"
-    const Author1 = "https://placehold.co/41x41"
-    const Author2 = "https://placehold.co/41x41"
-    const Author3 = "https://placehold.co/41x41"
   return (
     <>
      <section className="home3-Our-Blogs-sec">
@@ -26,7 +22,7 @@ const Home3BlogsSec = () => {
                     <div  className="home-3-blog-card">
                         <div className="home-3-blog-card-img">
                             <Link to="/BlogListingpage">
-                            <img src={blogCardImg} alt="" />
+                            <img src={Img1} alt="" />
                             </Link>
                         </div>
                         <Link to="/BlogListingpage" className="home-3-blog-mini-tit">Breeding</Link>
@@ -40,7 +36,7 @@ const Home3BlogsSec = () => {
                         <div className="home-3-blog-author-name-nd-date">
                             <div>
                                 <Link to="/BlogListingpage">
-                                <img src={Author1} alt="" />
+                                <img src={Author1Img} alt="" />
                                 <h4>Tracey Wilson</h4>
                                 </Link>
                             </div>
@@ -53,7 +49,7 @@ const Home3BlogsSec = () => {
                     <div  className="home-3-blog-card">
                         <div className="home-3-blog-card-img">
                             <Link to="/BlogListingpage">
-                            <img src={blogCardImg} alt="" />
+                            <img src={Img2} alt="" />
                             </Link>
                         </div>
                         <Link to="/BlogListingpage" className="home-3-blog-mini-tit">Breeding</Link>
@@ -67,7 +63,7 @@ const Home3BlogsSec = () => {
                         <div className="home-3-blog-author-name-nd-date">
                             <div>
                                <Link to="/BlogListingpage">
-                                <img src={Author2} alt="" />
+                                <img src={Author2Img} alt="" />
                                 <h4>Courtney Davis</h4>
                                 </Link>
                             </div>
@@ -80,7 +76,7 @@ const Home3BlogsSec = () => {
                     <div className="home-3-blog-card">
                         <div className="home-3-blog-card-img">
                             <Link to="/BlogListingpage">
-                            <img src={blogCardImg} alt="" />
+                            <img src={Img3} alt="" />
                             </Link>
                         </div>
                         <Link to="/BlogListingpage" className="home-3-blog-mini-tit">Breeding</Link>
@@ -94,7 +90,7 @@ const Home3BlogsSec = () => {
                         <div className="home-3-blog-author-name-nd-date">
                             <div>
                                 <Link to="/BlogListingpage">
-                                <img src={Author3} alt="" />
+                                <img src={Author3Img} alt="" />
                                 <h4>Ashley Carter</h4>
                                 </Link>
                             </div>

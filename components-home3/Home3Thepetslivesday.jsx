@@ -1,7 +1,6 @@
 import Img1 from "../src/assets/The-pets-lives-day/the-pets-lives.jpg"
 
 const Home3Thepetslivesday = () => {
-    const AboutDCCareImg = "https://placehold.co/685x573"
   return (
     <>
     <section className="Home3-The-pets-lives-day-sec">
@@ -21,7 +20,7 @@ const Home3Thepetslivesday = () => {
                 </div>
                 <div className="col-lg-6">
                     <div className="Home3-The-pets-lives-day-main-img">
-                        <img src={AboutDCCareImg} alt="" />
+                        <img src={Img1} alt="" />
                     </div>
                 </div>
 

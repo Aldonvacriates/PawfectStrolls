@@ -1,7 +1,6 @@
 import MainImg from "../src/assets/home-3/AboutDogCare/About-DC-Care-main-img.jpg"
 
 const AboutDCCare = () => {
-    const AboutDCCareImg = "https://placehold.co/685x573"
   return (
     <>
     <section className="About-DC-Care-sec">
@@ -9,7 +8,7 @@ const AboutDCCare = () => {
             <div className="row">
                 <div className="col-lg-6">
                     <div className="About-DC-Care-main-img">
-                        <img className="moveing-img" src={AboutDCCareImg} alt="" />
+                        <img className="moveing-img" src={MainImg} alt="" />
                     </div>
                 </div>
                 <div className="col-lg-6">

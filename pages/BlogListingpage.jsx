@@ -1,14 +1,11 @@
 import Home3BlogDetailPageBanner from "../components-blog-detail/Home3BlogDetailPageBanner"
 import Home3Header from "../components-home3/Home3Header"
 import Home3Footer from "../components-home3/Home3Footer"
-// import BlogMainImg from "../src/assets/home-3/home3-blog-detail-page/blog-detail-main.png"
+import BlogMainImg from "../src/assets/home-3/home3-blog-detail-page/blog-detail-main.png"
 import Home3BlogComment from "../components-blog-detail/Home3BlogComment"
 import BlogDetailPageSideBar from "../components-blog-detail/BlogDetailPageSideBar"
 
 const BlogListingpage = () => {
-
-    const BlogMainImg = "https://placehold.co/921x488";
-    // const BlogMainImg = "https://placehold.co/921x488";
 
   return (
     <>

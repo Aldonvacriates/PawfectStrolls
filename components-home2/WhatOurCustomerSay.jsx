@@ -1,7 +1,7 @@
-// import MainImg from "../src/assets/home-2/WhatOurCustomerSay/WhatOurCustomerSay-main-img.png"
+import MainImg from "../src/assets/home-2/WhatOurCustomerSay/WhatOurCustomerSay-main-img.png"
 
 import Stars from "../src/assets/home-2/WhatOurCustomerSay/Star.svg" 
-// import User1 from "../src/assets/home-2/WhatOurCustomerSay/User.png"
+import User1 from "../src/assets/home-2/WhatOurCustomerSay/User.png"
 
 
 // Import Swiper React components
@@ -17,8 +17,7 @@ import { Navigation } from 'swiper/modules';
 
 const WhatOurCustomerSay = () => {
 
-  const WhatOurCustomerImg = "https://placehold.co/683x635"
-  const User1 = "https://placehold.co/106x106"
+  const WhatOurCustomerImg = MainImg;
 
   return (
     <>
