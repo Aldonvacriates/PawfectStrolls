@@ -51,7 +51,7 @@ const Home3Footer = () => {
                 </p>
                 <p>
                   <b>Phone :</b>
-                  <a href="tel:880123456789"> 8801234567</a>
+                  <a href="tel:435-241-3838"> 435-241-3838</a>
                 </p>
               </div>
             </div>
