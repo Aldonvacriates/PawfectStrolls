@@ -1,4 +1,3 @@
-import React from 'react';
 import Starts from "../src/assets/home-3/Home3TestimonialCard/stars.png";
 import PrifleImg1 from "../src/assets/home-3/Home3TestimonialCard/card-profile-2.png";
 import PrifleImg2 from "../src/assets/home-3/Home3TestimonialCard/card-profile-1.png";

@@ -1,18 +1,3 @@
-import React, { useRef, useState } from 'react';
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/free-mode';
-import 'swiper/css/navigation';
-import 'swiper/css/thumbs';
-
-// import required modules
-import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
-
-
 import Home3Header from "../components-home3/Home3Header"
 import Home3Footer from "../components-home3/Home3Footer"
 import BlogCommentProfile from "../src/assets/home-3/blog-detail-page/blog-comment-profile.png"
@@ -38,7 +23,6 @@ import { Link } from "react-router-dom"
 import Accordion from 'react-bootstrap/Accordion';
 
 const Home3ShopDetailsPage = () => {
-    const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
     <>
     <Home3Header />
@@ -252,123 +236,123 @@ const Home3ShopDetailsPage = () => {
             <h3 className="home3-shopdetail-Related-products-tit">Related products</h3>
             <div className="row">
                 <div className="col-xl-3 col-lg-4 col-md-6">
-                        <div class="home3-pet-foot-shop-product-card"> 
-                        <div class="home3-pet-foot-shop-product-img">
+                        <div className="home3-pet-foot-shop-product-card"> 
+                        <div className="home3-pet-foot-shop-product-img">
                             <Link to="/home3shopdetailspage">
                             <img src={RelatedProductsImg1} alt="" />
                             </Link>
                             </div>
-                            <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
-                            <ul class="Category-nd-weight">
+                            <Link to="/home3shopdetailspage" className="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
+                            <ul className="Category-nd-weight">
                                 <li><span>Category</span><Link to="/home3shopdetailspage">Dog Food</Link></li>
                                 <li><span>Size : </span><p>385gm</p></li>
                             </ul>
-                        <h4 class="home3-pet-foot-shop-product-price">$12.00</h4>
+                        <h4 className="home3-pet-foot-shop-product-price">$12.00</h4>
                         </div>
                 </div>
                 <div className="col-xl-3 col-lg-4 col-md-6">
-                    <div class="home3-pet-foot-shop-product-card">
-                        <div class="home3-pet-foot-shop-product-img">
+                    <div className="home3-pet-foot-shop-product-card">
+                        <div className="home3-pet-foot-shop-product-img">
                         <Link to="/home3shopdetailspage">
                             <img src={RelatedProductsImg2} alt="" />
                             </Link>
                             </div>
-                            <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
-                            <ul class="Category-nd-weight">
+                            <Link to="/home3shopdetailspage" className="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
+                            <ul className="Category-nd-weight">
                             <li><span>Category</span><Link to="/home3shopdetailspage">Dog Food</Link></li>
                                 <li><span>Size : </span><p>385gm</p></li>
                             </ul>
-                        <h4 class="home3-pet-foot-shop-product-price">$12.00</h4>
+                        <h4 className="home3-pet-foot-shop-product-price">$12.00</h4>
                         </div>
                 </div>
                 <div className="col-xl-3 col-lg-4 col-md-6">
-                    <div class="home3-pet-foot-shop-product-card">
-                        <div class="home3-pet-foot-shop-product-img">
+                    <div className="home3-pet-foot-shop-product-card">
+                        <div className="home3-pet-foot-shop-product-img">
                              <Link to="/home3shopdetailspage">
                             <img src={RelatedProductsImg3} alt="" />
                             </Link>
                             </div>
-                            <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
-                            <ul class="Category-nd-weight">
+                            <Link to="/home3shopdetailspage" className="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
+                            <ul className="Category-nd-weight">
                             <li><span>Category</span><Link to="/home3shopdetailspage">Dog Food</Link></li>
                                 <li><span>Size : </span><p>385gm</p></li>
                             </ul>
-                        <h4 class="home3-pet-foot-shop-product-price">$12.00</h4>
+                        <h4 className="home3-pet-foot-shop-product-price">$12.00</h4>
                         </div>
                 </div>
                 <div className="col-xl-3 col-lg-4 col-md-6">
-                    <div class="home3-pet-foot-shop-product-card">
-                        <div class="home3-pet-foot-shop-product-img">
+                    <div className="home3-pet-foot-shop-product-card">
+                        <div className="home3-pet-foot-shop-product-img">
                             <Link to="/home3shopdetailspage">
                             <img src={RelatedProductsImg4} alt="" />
                             </Link>
                             </div>
-                            <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
-                            <ul class="Category-nd-weight">
+                            <Link to="/home3shopdetailspage" className="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
+                            <ul className="Category-nd-weight">
                             <li><span>Category</span><Link to="/home3shopdetailspage">Dog Food</Link></li>
                                 <li><span>Size : </span><p>385gm</p></li>
                             </ul>
-                        <h4 class="home3-pet-foot-shop-product-price">$12.00</h4>
+                        <h4 className="home3-pet-foot-shop-product-price">$12.00</h4>
                         </div>
                 </div>
                 <div className="col-xl-3 col-lg-4 col-md-6">
-                    <div class="home3-pet-foot-shop-product-card">
-                        <div class="home3-pet-foot-shop-product-img">
+                    <div className="home3-pet-foot-shop-product-card">
+                        <div className="home3-pet-foot-shop-product-img">
                              <Link to="/home3shopdetailspage">
                             <img src={RelatedProductsImg5} alt="" />
                             </Link> 
                             </div>
-                            <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
-                            <ul class="Category-nd-weight">
+                            <Link to="/home3shopdetailspage" className="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
+                            <ul className="Category-nd-weight">
                             <li><span>Category</span><Link to="/home3shopdetailspage">Dog Food</Link></li>
                                 <li><span>Size : </span><p>385gm</p></li>
                             </ul>
-                        <h4 class="home3-pet-foot-shop-product-price">$12.00</h4>
+                        <h4 className="home3-pet-foot-shop-product-price">$12.00</h4>
                         </div>
                 </div>
                 <div className="col-xl-3 col-lg-4 col-md-6">
-                    <div class="home3-pet-foot-shop-product-card">
-                        <div class="home3-pet-foot-shop-product-img">
+                    <div className="home3-pet-foot-shop-product-card">
+                        <div className="home3-pet-foot-shop-product-img">
                            <Link to="/home3shopdetailspage">
                             <img src={RelatedProductsImg6} alt="" />
                             </Link>
                             </div>
-                            <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
-                            <ul class="Category-nd-weight">
+                            <Link to="/home3shopdetailspage" className="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
+                            <ul className="Category-nd-weight">
                             <li><span>Category</span><Link to="/home3shopdetailspage">Dog Food</Link></li>
                                 <li><span>Size : </span><p>385gm</p></li>
                             </ul>
-                        <h4 class="home3-pet-foot-shop-product-price">$12.00</h4>
+                        <h4 className="home3-pet-foot-shop-product-price">$12.00</h4>
                         </div>
                 </div>
                 <div className="col-xl-3 col-lg-4 col-md-6">
-                    <div class="home3-pet-foot-shop-product-card">
-                        <div class="home3-pet-foot-shop-product-img">
+                    <div className="home3-pet-foot-shop-product-card">
+                        <div className="home3-pet-foot-shop-product-img">
                         <Link to="/home3shopdetailspage">
                             <img src={RelatedProductsImg7} alt="" />
                             </Link>
                             </div>
-                            <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
-                            <ul class="Category-nd-weight">
+                            <Link to="/home3shopdetailspage" className="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
+                            <ul className="Category-nd-weight">
                             <li><span>Category</span><Link to="/home3shopdetailspage">Dog Food</Link></li>
                                 <li><span>Size : </span><p>385gm</p></li>
                             </ul>
-                        <h4 class="home3-pet-foot-shop-product-price">$12.00</h4>
+                        <h4 className="home3-pet-foot-shop-product-price">$12.00</h4>
                         </div>
                 </div>
                 <div className="col-xl-3 col-lg-4 col-md-6">
-                    <div class="home3-pet-foot-shop-product-card">
-                        <div class="home3-pet-foot-shop-product-img">
+                    <div className="home3-pet-foot-shop-product-card">
+                        <div className="home3-pet-foot-shop-product-img">
                         <Link to="/home3shopdetailspage">
                             <img src={RelatedProductsImg8} alt="" />
                             </Link>
                             </div>
-                            <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
-                            <ul class="Category-nd-weight">
+                            <Link to="/home3shopdetailspage" className="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
+                            <ul className="Category-nd-weight">
                             <li><span>Category</span><Link to="/home3shopdetailspage">Dog Food</Link></li>
                                 <li><span>Size : </span><p>385gm</p></li>
                             </ul>
-                        <h4 class="home3-pet-foot-shop-product-price">$12.00</h4>
+                        <h4 className="home3-pet-foot-shop-product-price">$12.00</h4>
                         </div>
                 </div>
             </div>

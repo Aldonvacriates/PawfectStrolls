@@ -23,26 +23,26 @@ const BlogDetailPageSideBar = () => {
 
         <div className="home3-blog-side-bar-recent-cards">
             <img src={RecentPost1} alt="" />
-            <Link to="/BlogListingpage">Tips and tricks: Puppy's First Grooming</Link>
+            <Link to="/BlogListingpage">Tips and tricks: Puppy&apos;s First Grooming</Link>
         </div>
 
         <div className="home3-blog-side-bar-recent-cards">
             <img src={RecentPost2} alt="" />
 
-            <Link to="/BlogListingpage">Tips and tricks: Puppy's First Grooming</Link>
+            <Link to="/BlogListingpage">Tips and tricks: Puppy&apos;s First Grooming</Link>
         </div>
 
         <div className="home3-blog-side-bar-recent-cards">
             <img src={RecentPost3} alt="" />
 
-            <Link to="/BlogListingpage">Tips and tricks: Puppy's First Grooming</Link>
+            <Link to="/BlogListingpage">Tips and tricks: Puppy&apos;s First Grooming</Link>
         </div>
 
 
         <div className="home3-blog-side-bar-recent-cards home3-blog-side-bar-recent-cards-last">
             <img src={RecentPost4} alt="" />
 
-            <Link to="/BlogListingpage">Tips and tricks: Puppy’s First Grooming</Link>
+            <Link to="/BlogListingpage">Tips and tricks: Puppy&apos;s First Grooming</Link>
         </div>
 
     </div>

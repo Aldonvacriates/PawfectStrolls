@@ -148,8 +148,8 @@ const Shop = () => {
                        <div className="items-per-page-wrap">
                         <span>Items Per Page</span>
 
-                        <select class="form-select" aria-label="Default select example">
-                          <option selected>0</option>
+                        <select className="form-select" aria-label="Default select example" defaultValue="0">
+                          <option value="0">0</option>
                           <option value="1">1</option>
                           <option value="2">2</option>
                           <option value="3">3</option>
@@ -158,12 +158,12 @@ const Shop = () => {
 
                        <div className="Sort-By-wrap">
                         <span>Sort By</span>
-                        <select class="form-select" aria-label="Default select example">
-                          <option selected>Featured</option>
-                          <option >Featured-1</option>
-                          <option >Featured-2</option>
-                          <option >Featured-3</option>
-                          <option >Featured-4</option>
+                        <select className="form-select" aria-label="Default select example" defaultValue="Featured">
+                          <option value="Featured">Featured</option>
+                          <option value="Featured-1">Featured-1</option>
+                          <option value="Featured-2">Featured-2</option>
+                          <option value="Featured-3">Featured-3</option>
+                          <option value="Featured-4">Featured-4</option>
                         </select>
                        </div>
 

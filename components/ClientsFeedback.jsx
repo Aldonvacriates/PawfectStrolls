@@ -1,5 +1,3 @@
-import React, { useRef, useState } from 'react';
-
 // import SwiperProfile from "../src/assets/home/clients-feedback/swiper-profile.png"
 import profile1 from "../src/assets/home/clients-feedback/profile-1.png";
 import profile2 from "../src/assets/home/clients-feedback/profile-2.png";

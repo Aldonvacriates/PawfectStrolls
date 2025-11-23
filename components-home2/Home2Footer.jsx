@@ -3,7 +3,7 @@ import Social1 from "../src/assets/home-2/home2-footer/1.svg"
 import Social2 from "../src/assets/home-2/home2-footer/2.svg" 
 import Social3 from "../src/assets/home-2/home2-footer/3.svg" 
 
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 import { Link } from "react-router-dom"
@@ -12,6 +12,7 @@ const Home2Footer = () => {
 
     const formRef = useRef(); // Reference for the form
   const [buttonText, setButtonText] = useState("Send Email"); // Button text state
+  const year = new Date().getFullYear();
 
   const handleSubmit = (event) => {
     event.preventDefault(); // Prevent default form submission

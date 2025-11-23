@@ -1,5 +1,4 @@
 import Home3Header from "../components-home3/Home3Header"
-import Header from "../components/Header"
 import Home3Footer from "../components-home3/Home3Footer"
 import Email2 from "../src/assets/home-3/home3-contact-us/Email-2.svg"
 import Clock from "../src/assets/home-3/home3-contact-us/Clock.svg"
@@ -69,7 +68,7 @@ const Home3ContactUs = () => {
         <div className="container">
             <div className="row">
                 <div className="col-lg-12">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.2764225088226!2d76.98871407452015!3d11.0178750546948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859b54eefefb1%3A0xc490b6044e33a787!2sSquash%20Apps%20Private%20Limited!5e0!3m2!1sen!2sin!4v1730177640550!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.2764225088226!2d76.98871407452015!3d11.0178750546948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859b54eefefb1%3A0xc490b6044e33a787!2sSquash%20Apps%20Private%20Limited!5e0!3m2!1sen!2sin!4v1730177640550!5m2!1sen!2sin" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>

@@ -32,7 +32,7 @@ const WhatWeDo = () => {
                 </a>
 
                 <p>
-                  We provide safe, structured walks tailored to your dog's
+                  We provide safe, structured walks tailored to your dog&apos;s
                   energy level. Whether they need a quick potty break or a full
                   adventure, our walks help reduce stress, burn energy, and keep
                   your pup healthy and happy.
@@ -63,8 +63,8 @@ const WhatWeDo = () => {
                 <p>
                   Perfect for puppies, seniors, or busy days. We stop by to let
                   your dog out, refresh water, give them attention, and make
-                  sure they're comfortable. A quick check-in that brings peace
-                  of mind and keeps your pet's routine consistent.
+                  sure they&apos;re comfortable. A quick check-in that brings peace
+                  of mind and keeps your pet&apos;s routine consistent.
                 </p>
 
                 <a href="#" className="abt-us-read-more-btn">
@@ -90,11 +90,11 @@ const WhatWeDo = () => {
                 </a>
 
                 <p>
-                  When you're away, we stay with your pup in the comfort of
+                  When you&apos;re away, we stay with your pup in the comfort of
                   their own home. We keep their routine consistent with feeding,
                   walks, playtime, and lots of affection. Your dog enjoys a
                   stress-free environment while you get peace of mind knowing
-                  they're cared for like family.
+                  they&apos;re cared for like family.
                 </p>
 
                 <a href="#" className="abt-us-read-more-btn">

@@ -16,7 +16,7 @@ import HamburgerMenu1 from "../src/assets/home-2/header/close.png"
 import {  useLocation } from "react-router-dom"
 
 
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 
 const Header = () => {

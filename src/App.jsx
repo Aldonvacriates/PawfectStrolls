@@ -17,9 +17,7 @@ import "../styles/boostrap.css"
 import ScrollToTop from "../components/ScrollToTop"
 
 
-import React, { useEffect, useState } from 'react';
-
-import { BrowserRouter , Route , Routes , useLocation , Navigate   } from "react-router-dom"
+import { BrowserRouter , Route , Routes , Navigate   } from "react-router-dom"
 import BackToTop from "../components/BackToTop"
 
 function App() {

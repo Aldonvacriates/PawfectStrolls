@@ -7,7 +7,7 @@ import Arrow from "../src/assets/common/w-down-arrow.svg"
 import Icon from "../src/assets/common/down-arrow.png"
 
 import HamburgerMenu1 from "../src/assets/home-2/header/close.png"
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const Home3Header = () => {
 

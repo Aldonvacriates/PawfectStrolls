@@ -26,14 +26,14 @@ const AboutUsSec = () => {
               >
                 <span className="abt-us-mini-tit">About Us</span>
                 <h2 className="abt-us-main-tit">
-                  For your pet’s natural <b>life</b> & <b>care</b>
+                  For your pet&apos;s natural <b>life</b> & <b>care</b>
                 </h2>
 
                 <p>
                   At Pawfect Strolls, we bring care, comfort, and fun to every
                   visit. From daily walks to check-ins, we treat your pets like
                   family-focused on safety, trust, and happy tails. Whether
-                  you're busy or traveling, we're here to make each day easier
+                  you&apos;re busy or traveling, we&apos;re here to make each day easier
                   and more joyful for your furry friends.
                 </p>
 

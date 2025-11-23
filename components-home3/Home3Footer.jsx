@@ -1,13 +1,11 @@
-import FooterLogo from "../src/assets/home-3/header/Logo-w.svg"
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-
-import { Link } from "react-router-dom"
 
 const Home3Footer = () => {
 
   const formRef = useRef(); // Reference for the form
   const [buttonText, setButtonText] = useState("Send Email"); // Button text state
+  const year = new Date().getFullYear();
 
   const handleSubmit = (event) => {
     event.preventDefault(); // Prevent default form submission

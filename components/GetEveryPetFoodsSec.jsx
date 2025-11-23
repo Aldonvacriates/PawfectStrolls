@@ -1,10 +1,6 @@
-import React from 'react'
-import MainImg from "../src/assets/home/get-every-pet-foods/get-every-pet-foods-main.png"
 import PetVideo from "../src/assets/home/get-every-pet-foods/pet-video.mp4"
 import Thumpnail from "../src/assets/home/get-every-pet-foods/cite-baby-playing-width-dog.png"
 
-
-import VideoPause from "../src/assets/home/get-every-pet-foods/home-video-pusue.svg"
 
 const GetEveryPetFoodsSec = () => {
   return (
@@ -24,7 +20,7 @@ const GetEveryPetFoodsSec = () => {
                   to playful toys that keep them happy and active. We offer
                   quality essentials designed for comfort, health, and everyday
                   joy, making it easy to care for your furry companions with
-                  products you can trust and they'll adore.
+                  products you can trust and they&apos;ll adore.
                 </p>
 
                 <a href="#" className="get-every-pet-foods-btn">

@@ -1,4 +1,4 @@
-import React , {useState}  from 'react'
+import { useEffect, useState } from 'react'
 import Arrow from "../src/assets/common/arrow.svg"
 
 const BackToTop = () => {
@@ -23,14 +23,19 @@ const BackToTop = () => {
         });
     };
 
-    window.addEventListener("scroll", toggleVisible);
+    useEffect(() => {
+      window.addEventListener("scroll", toggleVisible);
+      return () => window.removeEventListener("scroll", toggleVisible);
+    }, []);
 
   return (
     <>
-     <button onClick={scrollToTop} className="back-to-top-btn-wrap">
+     {visible && (
+       <button onClick={scrollToTop} className="back-to-top-btn-wrap">
         {/* <button></button> */}
         <img src={Arrow} alt="" />
-     </button>
+       </button>
+     )}
     </>
 
   )

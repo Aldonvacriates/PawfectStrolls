@@ -9,7 +9,7 @@ import Arrow from "../src/assets/home-2/banner/main-tit-before.svg"
 import Icon from "../src/assets/common/down-arrow.png"
 
 import { Link , useLocation } from "react-router-dom"
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const Header = () => {
 

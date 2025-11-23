@@ -7,7 +7,6 @@ import WhatWeDo from "../components/WhatWeDo"
 import OurGroomers from "../components/OurGroomers"
 import ClientsFeedback from "../components/ClientsFeedback"
 import SubscribeNewsletter from "../components/SubscribeNewsletter"
-import BlogSec from "../components/blogSec"
 import Footer from "../components/Footer"
 // import AOS from "aos"
 

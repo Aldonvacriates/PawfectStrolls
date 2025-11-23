@@ -4,16 +4,10 @@ import Img3 from "../src/assets/blog/blog-swiper-img-3.png"
 
 import { Link } from "react-router-dom";
 
-import React, { useRef, useState } from 'react';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // import required modules
-import { Pagination } from 'swiper/modules';
-
-
-// import required modules
-import { Navigation } from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -41,7 +35,7 @@ const BlogSec = () => {
         pagination={{
           clickable: true,
         }}
-        modules={[Navigation]}
+        modules={[Navigation, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>
