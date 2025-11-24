@@ -82,7 +82,7 @@ const Header = () => {
               </div>
 
               <ul className="nav-options">
-                <li className="home">
+                {/* <li className="home">
                   <Link
                     className={
                       "Home3-pages-link underline" +
@@ -96,12 +96,12 @@ const Header = () => {
                   <ul>
                     <li className="inner-home">
                       <Link to="/shop">Shop</Link>
-                      {/* <Link to="/home2">Home 2</Link>
-                      <Link to="/home3">Home 3</Link> */}
+                      <Link to="/home2">Home 2</Link>
+                      <Link to="/home3">Home 3</Link>
                     </li>
                   </ul>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <Link
                     className={
                       "underline" + (url === "/aboutuspage" ? " active" : "")
@@ -110,14 +110,14 @@ const Header = () => {
                   >
                     About
                   </Link>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <Link to="/contactus">Contact</Link>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <Link to="/blog-detail">Blogs</Link>
-                </li>
-                <li className="Home3-nav-pages">
+                </li> */}
+                {/* <li className="Home3-nav-pages">
                   <Link className="Home3-pages-link" to="/">
                     Pages
                     <img src={Arrow} alt="" />
@@ -135,37 +135,40 @@ const Header = () => {
                     <Link to="/privacy-policy">Privacy Policy</Link>
                     <Link to="/contactus">Contact</Link>
                   </ul>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <Link to="/shop">Shop</Link>
-                </li>
+                </li> */}
               </ul>
 
-              <a className="header-btn" href="#">
+              <a
+                className="header-btn"
+                href="https://pawfectstrollspc.simplybook.me/v2/"
+              >
                 Get Appointment
               </a>
 
-              <button
+              {/* <button
                 id="home1-hamburger-menu"
                 className="home1-hamburger-menu"
                 onClick={NavToggle}
               >
                 <img src={HamburgerMenu} alt="" />
-              </button>
+              </button> */}
 
               <ul
                 id="home1-mobile-nav "
                 className={`home1-mobile-nav home1-mobile-nav2 ${NavBtn}`}
               >
-                <button
+                {/* <button
                   id="home1-hamburger-menu"
                   className="home1-hamburger-menu home1-hamburger-menu2"
                   onClick={NavToggle}
                 >
                   <img src={HamburgerMenu1} alt="" />
-                </button>
+                </button> */}
 
-                <li className="home">
+                {/* <li className="home">
                   <button onClick={ActiveInnerHome}>
                     <Link
                       className={"underline" + (url === "/" ? " active" : "")}
@@ -182,21 +185,21 @@ const Header = () => {
                       >
                         <img src={Icon} alt="" />
                       </button>
-                      {/* <Link to="/home2">Home 2</Link>
-                      <Link to="/home3">Home 3</Link> */}
+                      <Link to="/home2">Home 2</Link>
+                      <Link to="/home3">Home 3</Link>
                     </li>
                   </ul>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <Link to="/aboutuspage">About</Link>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <Link to="/contactus">Contact</Link>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <Link to="/blog-detail">Blogs</Link>
-                </li>
-                <li className="Home3-nav-pages">
+                </li> */}
+                {/* <li className="Home3-nav-pages">
                   <button onClick={ActivePages}>
                     <Link to="/">Pages</Link>
                   </button>
@@ -219,10 +222,10 @@ const Header = () => {
                     <Link to="/privacy-policy">Privacy Policy</Link>
                     <Link to="/contactus">Contact</Link>
                   </ul>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <Link to="/shop">Shop</Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
