@@ -109,6 +109,7 @@ const Home3Header = () => {
                            <Link className={"underline" + (url === "/petsdetailpage" ?" active1" : "")}  to="/petsdetailpage">Pets Detail Page</Link>
                            <Link className={"underline" + (url === "/home3shopdetailspage" ?" active1" : "")}  to="/home3shopdetailspage">Shop Details Page</Link>
                            <Link className={"underline" + (url === "/aboutuspage" ?" active1" : "")}  to="/aboutuspage">About Us Page</Link>
+                           <Link className={"underline" + (url === "/privacy-policy" ?" active1" : "")}  to="/privacy-policy">Privacy Policy</Link>
                            <Link className={"underline" + (url === "/contactus" ?" active1" : "")}  to="/contactus">Contact</Link>
                          </ul>
                         </li>
@@ -166,6 +167,7 @@ const Home3Header = () => {
                            <Link className={"underline" + (url === "/petsdetailpage" ?" active1" : "")}  to="/petsdetailpage">Pets Detail Page</Link>
                            <Link className={"underline" + (url === "/home3shopdetailspage" ?" active1" : "")}  to="/home3shopdetailspage">Shop Details Page</Link>
                            <Link className={"underline" + (url === "/aboutuspage" ?" active1" : "")}  to="/aboutuspage">About Us Page</Link>
+                           <Link className={"underline" + (url === "/privacy-policy" ?" active1" : "")}  to="/privacy-policy">Privacy Policy</Link>
                            <Link className={"underline" + (url === "/contactus" ?" active1" : "")}  to="/contactus">Contact</Link>
                          </ul>
                         </li>

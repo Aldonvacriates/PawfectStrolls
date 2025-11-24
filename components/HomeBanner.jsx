@@ -19,7 +19,7 @@ const HomeBanner = () => {
                     <div>
                         <div className="Appointment-nd-contact-btn">
                             <a className="make-appointment-btn" href="#">Make Appointment</a>
-                            <a href="#" className="Call-Us-btn">Call Us <img src={iocn} alt="" /></a>
+                            <a href="tel:435-241-3838" className="Call-Us-btn">Call Us <img src={iocn} alt="" /></a>
                         </div>
                     </div>
                 </div>

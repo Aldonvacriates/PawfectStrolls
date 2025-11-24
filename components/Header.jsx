@@ -132,6 +132,7 @@ const Header = () => {
                     <Link to="/petsdetailpage">Pets Detail Page</Link>
                     <Link to="/home3shopdetailspage">Shop Details Page</Link>
                     <Link to="/aboutuspage">About Us Page</Link>
+                    <Link to="/privacy-policy">Privacy Policy</Link>
                     <Link to="/contactus">Contact</Link>
                   </ul>
                 </li>
@@ -215,6 +216,7 @@ const Header = () => {
                     <Link to="/petsdetailpage">Pets Detail Page</Link>
                     <Link to="/home3shopdetailspage">Shop Details Page</Link>
                     <Link to="/aboutuspage">About Us Page</Link>
+                    <Link to="/privacy-policy">Privacy Policy</Link>
                     <Link to="/contactus">Contact</Link>
                   </ul>
                 </li>

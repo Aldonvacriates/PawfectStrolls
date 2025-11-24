@@ -1,0 +1,122 @@
+/* Privacy Policy */
+.privacy-hero{
+    padding: 160px 0 80px;
+    background: linear-gradient(135deg, rgba(113, 29, 176, 0.08), rgba(218, 12, 129, 0.05));
+}
+
+.privacy-hero-wrap{
+    max-width: 880px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.privacy-lead{
+    margin: 16px auto 14px;
+    max-width: 740px;
+    color: #4b4851;
+    font-size: 17px;
+}
+
+.privacy-meta{
+    color: #7a7585;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.privacy-policy-section{
+    padding: 90px 0 120px;
+    background-color: #fff;
+}
+
+.privacy-intro-card{
+    background: #f7f2fb;
+    border: 1px solid #ede7f5;
+    border-radius: 18px;
+    padding: 28px 32px;
+    box-shadow: 0 12px 30px rgba(17, 7, 31, 0.05);
+    margin-bottom: 30px;
+}
+
+.privacy-policy-grid .col-lg-6{
+    margin-bottom: 24px;
+}
+
+.privacy-policy-card{
+    background: #ffffff;
+    border: 1px solid #eee9f5;
+    border-radius: 18px;
+    padding: 28px 26px;
+    height: 100%;
+    box-shadow: 0 12px 36px rgba(17, 7, 31, 0.06);
+}
+
+.privacy-policy-card h4{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #1f1534;
+}
+
+.privacy-policy-card ul{
+    padding-left: 20px;
+    display: grid;
+    gap: 8px;
+    margin: 0;
+}
+
+.privacy-policy-card li{
+    color: #433f4a;
+}
+
+.privacy-policy-card p{
+    margin: 0;
+    color: #433f4a;
+}
+
+.privacy-contact-card{
+    background: linear-gradient(120deg, rgba(113, 29, 176, 0.09), rgba(218, 12, 129, 0.08));
+    border: 1px solid #e3d5f1;
+    border-radius: 20px;
+    padding: 32px 34px;
+    box-shadow: 0 18px 38px rgba(17, 7, 31, 0.08);
+    display: grid;
+    gap: 12px;
+}
+
+.privacy-contact-card h4{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.privacy-contact-card p{
+    color: #403b46;
+    margin: 0;
+}
+
+.privacy-contact-actions{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 991px){
+    .privacy-hero{
+        padding: 140px 0 60px;
+    }
+
+    .privacy-policy-section{
+        padding: 70px 0 90px;
+    }
+
+    .privacy-policy-card{
+        padding: 24px 22px;
+    }
+}
+
+@media (max-width: 575px){
+    .privacy-contact-actions{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
