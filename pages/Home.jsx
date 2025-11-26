@@ -36,7 +36,7 @@ const Home = () => {
     <GetEveryPetFoodsSec />
     <WhatWeDo />
     <OurGroomers />
-    <ClientsFeedback />
+    {/* <ClientsFeedback /> */}
     <SubscribeNewsletter />
     {/* <BlogSec /> */}
     <Footer />
