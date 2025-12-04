@@ -15,10 +15,12 @@ import AboutUsPage from "../pages/AboutUsPage"
 import "../styles/boostrap.css"
 // import 'animate.css';
 import ScrollToTop from "../components/ScrollToTop"
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 
 import { BrowserRouter , Route , Routes , Navigate   } from "react-router-dom"
 import BackToTop from "../components/BackToTop"
+
 
 function App() {
   return (
