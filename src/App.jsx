@@ -16,8 +16,6 @@ import "../styles/boostrap.css"
 // import 'animate.css';
 import ScrollToTop from "../components/ScrollToTop"
 
-
-
 import { BrowserRouter , Route , Routes , Navigate   } from "react-router-dom"
 import BackToTop from "../components/BackToTop"
 
