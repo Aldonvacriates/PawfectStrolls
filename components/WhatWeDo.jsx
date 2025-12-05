@@ -39,7 +39,7 @@ const WhatWeDo = () => {
                 </p>
 
                 <a
-                  href="https://prickle-forest-7da.notion.site/Daily-Walks-Exercise-2bfda13b13c0805e91dffbb092366197"
+                  href="https://pawfectstrolls.notion.site/About-Pawfect-Strolls-2c0da13b13c080b3a111e6ee88d06491"
                   className="abt-us-read-more-btn"
                 >
                   Read more

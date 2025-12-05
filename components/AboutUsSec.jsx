@@ -33,8 +33,8 @@ const AboutUsSec = () => {
                   At Pawfect Strolls, we bring care, comfort, and fun to every
                   visit. From daily walks to check-ins, we treat your pets like
                   family-focused on safety, trust, and happy tails. Whether
-                  you&apos;re busy or traveling, we&apos;re here to make each day easier
-                  and more joyful for your furry friends.
+                  you&apos;re busy or traveling, we&apos;re here to make each
+                  day easier and more joyful for your furry friends.
                 </p>
 
                 <ul className="abt-us-sec-check-box">
@@ -44,7 +44,10 @@ const AboutUsSec = () => {
                   <li>Loveable Sitters</li>
                 </ul>
 
-                <a className="abt-us-read-more-btn" href="#">
+                <a
+                  className="abt-us-read-more-btn"
+                  href="https://pawfectstrolls.notion.site/About-Pawfect-Strolls-2c0da13b13c080b3a111e6ee88d06491"
+                >
                   Read more
                 </a>
               </div>
