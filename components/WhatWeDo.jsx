@@ -70,7 +70,10 @@ const WhatWeDo = () => {
                   peace of mind and keeps your pet&apos;s routine consistent.
                 </p>
 
-                <a href="#" className="abt-us-read-more-btn">
+                <a
+                  href="https://pawfectstrolls.notion.site/Potty-Breaks-Check-Ins-2c0da13b13c080f9ae69cc3acfa9805a"
+                  className="abt-us-read-more-btn"
+                >
                   Read more
                 </a>
               </div>
