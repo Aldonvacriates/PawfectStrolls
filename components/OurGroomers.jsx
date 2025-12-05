@@ -44,7 +44,7 @@ const OurGroomers = () => {
                   />
                 </div>
 
-                <span className="person-positions">Pet Care Incharge</span>
+                <span className="person-positions">Pet Care</span>
 
                 <h4 className="groomers-names">Aldo Herrera</h4>
 
@@ -83,7 +83,7 @@ const OurGroomers = () => {
                   />
                 </div>
 
-                <span className="person-positions"></span>
+                <span className="person-positions">Pet Care</span>
 
                 <h4 className="groomers-names">Yenifer</h4>
 
