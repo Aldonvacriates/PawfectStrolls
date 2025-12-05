@@ -60,7 +60,7 @@ const SubscribeNewsletter = () => {
                 <div className="field">
                   <input
                     type="email"
-                    name="message" // Use `reply_to` for the sender's email
+                    name="email" // Use `reply_to` for the sender's email
                     id="email"
                     placeholder="Your email"
                     required
