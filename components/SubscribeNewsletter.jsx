@@ -13,7 +13,7 @@ const SubscribeNewsletter = () => {
     setButtonText("Sending..."); // Update button text
 
     const serviceID = "service_xjk1dxa";
-    const templateID = "template_uv8vadl";
+    const templateID = "template_r9m4hel";
     const publicKey = "EzGNMBafYq57UXaat"; // Your EmailJS public key
 
     emailjs
