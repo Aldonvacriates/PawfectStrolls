@@ -38,7 +38,10 @@ const WhatWeDo = () => {
                   your pup healthy and happy.
                 </p>
 
-                <a href="#" className="abt-us-read-more-btn">
+                <a
+                  href="https://prickle-forest-7da.notion.site/Daily-Walks-Exercise-2bfda13b13c0805e91dffbb092366197"
+                  className="abt-us-read-more-btn"
+                >
                   Read more
                 </a>
               </div>
@@ -63,8 +66,8 @@ const WhatWeDo = () => {
                 <p>
                   Perfect for puppies, seniors, or busy days. We stop by to let
                   your dog out, refresh water, give them attention, and make
-                  sure they&apos;re comfortable. A quick check-in that brings peace
-                  of mind and keeps your pet&apos;s routine consistent.
+                  sure they&apos;re comfortable. A quick check-in that brings
+                  peace of mind and keeps your pet&apos;s routine consistent.
                 </p>
 
                 <a href="#" className="abt-us-read-more-btn">
