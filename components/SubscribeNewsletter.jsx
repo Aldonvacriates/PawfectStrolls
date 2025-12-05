@@ -12,9 +12,9 @@ const SubscribeNewsletter = () => {
 
     setButtonText("Sending..."); // Update button text
 
-    const serviceID = "default_service";
-    const templateID = "template_ttq5iaq";
-    const publicKey = "Gk411-KkxOW2-mVlO"; // Your EmailJS public key
+    const serviceID = "service_xjk1dxa";
+    const templateID = "template_uv8vadl";
+    const publicKey = "EzGNMBafYq57UXaat"; // Your EmailJS public key
 
     emailjs
       .sendForm(serviceID, templateID, formRef.current, publicKey)
