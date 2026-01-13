@@ -100,7 +100,7 @@ return (
       <p className="copy-rights">
         © {year} Copyrights, All rights reserved. Design by{" "}
         <a
-          href="https://www.aldowebsite.shop/"
+          href="https://www.aldowebsite.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
