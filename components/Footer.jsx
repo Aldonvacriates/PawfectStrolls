@@ -33,7 +33,7 @@ return (
                 <a href="#">Terms & Conditions</a>
               </li>
               <li>
-                <a href="/privacy-policy">Privacy Policy</a>
+                <Link to="/privacy-policy">Privacy Policy</Link>
               </li>
               <li>
                 <a href="#">Refund Policy</a>
