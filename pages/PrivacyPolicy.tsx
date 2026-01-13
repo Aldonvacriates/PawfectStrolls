@@ -1,18 +1,16 @@
 import React from "react";
 
-// Adjust these import paths to match your project structure:
 import Header from "../components/Header.jsx";
 import Footer from "../components/Footer.jsx";
-
+import "../styles/style.css";
+import "../styles/page1-res.css";
+import "../styles/page1-mob-view.css";
 import "../styles/privacy-policy-sec.css";
 
-
-export default function PrivacyPolicy() {
+const PrivacyPolicy = () => {
   return (
-    <>
-      <div className="page1-wrap">
-        <Header />
-      </div>
+    <div className="page1-wrap">
+      <Header />
       <main className="pp">
         <section className="pp-hero">
           <div className="pp-container">
@@ -25,7 +23,7 @@ export default function PrivacyPolicy() {
 
             <div className="pp-meta">
               <span>Last updated: January 2026</span>
-              <span className="pp-dot">•</span>
+              <span className="pp-dot">/</span>
               <a className="pp-link" href="#sms-terms">
                 Jump to SMS Terms
               </a>
@@ -186,8 +184,9 @@ export default function PrivacyPolicy() {
           </div>
         </section>
       </main>
-
       <Footer />
-    </>
+    </div>
   );
-}
+};
+
+export default PrivacyPolicy;
