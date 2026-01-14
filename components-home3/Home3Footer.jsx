@@ -12,9 +12,9 @@ const Home3Footer = () => {
 
     setButtonText("Sending..."); // Update button text
 
-    const serviceID = "default_service";
-    const templateID = "template_ttq5iaq";
-    const publicKey = "Gk411-KkxOW2-mVlO"; // Your EmailJS public key
+    const serviceID = "service_xjk1dxa";
+    const templateID = "template_r9m4hel";
+    const publicKey = "EzGNMBafYq57UXaat"; // Your EmailJS public key
 
     emailjs
       .sendForm(serviceID, templateID, formRef.current, publicKey)
@@ -44,9 +44,9 @@ const Home3Footer = () => {
 
                 <p>
                   <b>Email :</b>
-                  <a href="mailto:info@jstemplate.net">
+                  <a href="mailto:hello@pawfectstrolls.com">
                     {" "}
-                    info@jstemplate.net
+                    hello@pawfectstrolls.com
                   </a>{" "}
                 </p>
                 <p>

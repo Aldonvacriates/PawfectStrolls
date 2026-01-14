@@ -84,8 +84,8 @@ const Home3ContactUs = () => {
                         </div>
                         <div className="opening-hours-sec-card-cont">
                             <h4>Contact us</h4>
-                            <p>Call us: +(406) 555-0120</p>
-                            <p>Email: support@example.com</p>
+                            <p>Call us: +(435) 241-3838</p>
+                            <p>Email: hello@pawfectstrolls.com</p>
                         </div>
                     </div>
                 </div>
@@ -108,9 +108,9 @@ const Home3ContactUs = () => {
                         </div>
                         <div className="opening-hours-sec-card-cont">
                             <h4>Our Office</h4>
-                            <p>2972 Westheimer Rd. </p>
-                            <p>Santa Ana, 
-                            Illinois, USA</p>
+                            <p>5447 Bobsled Blvd. </p>
+                            <p>Park City, 
+                            Utah, USA</p>
                         </div>
                     </div>
                 </div>

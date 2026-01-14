@@ -28,7 +28,7 @@ const HomeBanner = () => {
                   <div className="Appointment-nd-contact-btn">
                     <a
                       className="make-appointment-btn"
-                      href="https://pawfectstrollspc.simplybook.me/v2/"
+                      href="https://www.timetopet.com/portal/pawfectstrolls/create-account"
                     >
                       Make Appointment
                     </a>
