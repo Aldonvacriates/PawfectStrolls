@@ -93,13 +93,13 @@ const Header = () => {
                     Home
                     <img src={Arrow} alt="" />
                   </Link>
-                  <ul>
+                  {/* <ul>
                     <li className="inner-home">
                       <Link to="/shop">Shop</Link>
                       <Link to="/home2">Home 2</Link>
                       <Link to="/home3">Home 3</Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li>
                   <Link
@@ -114,10 +114,10 @@ const Header = () => {
                 <li>
                   <Link to="/contactus">Contact</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link to="/blog-detail">Blogs</Link>
-                </li>
-                <li className="Home3-nav-pages">
+                </li> */}
+                {/* <li className="Home3-nav-pages">
                   <Link className="Home3-pages-link" to="/">
                     Pages
                     <img src={Arrow} alt="" />
@@ -135,10 +135,10 @@ const Header = () => {
                     <Link to="/privacy-policy">Privacy Policy</Link>
                     <Link to="/contactus">Contact</Link>
                   </ul>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <Link to="/shop">Shop</Link>
-                </li>
+                </li> */}
               </ul>
 
               <a
@@ -224,7 +224,7 @@ const Header = () => {
                   </ul>
                 </li>
                 <li>
-                  {/* <Link to="/shop">Shop</Link> */}
+                  <Link to="/shop">Shop</Link>
                 </li>
               </ul>
             </div>
