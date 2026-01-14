@@ -37,9 +37,10 @@ const Home3Footer = () => {
               <div className="home3-footer-abt-cont">
                 <h4 className="home3-footer-abt-cont-tit">About</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam
+                  Pawfect Strolls delivers insured dog walking, drop-in visits,
+                  and overnight pet sitting with GPS-tracked walks, photo
+                  check-ins, and real-time updates. We keep pets calm, safe, and
+                  happy at home while you work or travel.
                 </p>
 
                 <p>
@@ -111,15 +112,16 @@ const Home3Footer = () => {
                 <h4 className="home3-footer-Weekly-Newsletter-tit">
                   Weekly Newsletter
                 </h4>
-                <p>Get blog articles and offers via email</p>
+                <p>Get pet care tips, schedule reminders, and offers via email</p>
 
                 <form ref={formRef} onSubmit={handleSubmit} action="">
                   <div className="home3-footer-Weekly-Newsletter-input-wrap">
                     <input
-                      name="message"
+                      name="email"
                       className="home3-footer-Weekly-Newsletter-input"
-                      placeholder="Your Email"
-                      type="text"
+                      placeholder="Your email"
+                      type="email"
+                      autoComplete="email"
                       required
                     />
                   </div>

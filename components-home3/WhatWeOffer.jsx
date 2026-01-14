@@ -13,7 +13,7 @@ const WhatWeOffer = () => {
 
                 <h3 className="home3-What-We-Offer-mini-tit home3-What-We-Offer-main-tit">What <b>We Offer</b></h3>
 
-                <p>Risus sed vulputate odio ut enim. Cursus in hac habitasse platea dictumst. Tortor dignissim convallis aenean et tortor. Etiam sit amet nisl purus in mollis nunc sed id.</p>
+                <p>Pawfect Strolls provides reliable, safety-first pet care with GPS-tracked walks, photo updates, and routines tailored to every dog and cat we serve.</p>
             </div>
             <div className="row">
                 <div className="col-xl-4 col-lg-6 col-md-6">
@@ -22,10 +22,10 @@ const WhatWeOffer = () => {
                             <img src={WhatWeOffer1} alt="" />
                         </div>
                         <h3 className="home3-What-We-Offer-card-tit">
-                        For your pet’s natural
+                        Daily Dog Walks
                         </h3>
 
-                        <p>Risus sed vulputate odio ut enim. Cursus in hac habitasse platea dictumst. Tortor dignissim convallis aenean et tortor. Etiam sit amet nisl purus</p>
+                        <p>Structured neighborhood walks with GPS tracking, fresh water, and pace matched to your pup’s energy.</p>
                     </div>
                 </div>
                 <div className="col-xl-4 col-lg-6 col-md-6">
@@ -34,10 +34,10 @@ const WhatWeOffer = () => {
                             <img src={WhatWeOffer2} alt="" />
                         </div>
                         <h3 className="home3-What-We-Offer-card-tit">
-                        For your pet’s natural
+                        Drop-In Visits
                         </h3>
 
-                        <p>Risus sed vulputate odio ut enim. Cursus in hac habitasse platea dictumst. Tortor dignissim convallis aenean et tortor. Etiam sit amet nisl purus</p>
+                        <p>Midday potty breaks, feeding, meds, and playtime to keep pets relaxed between your morning and evening routines.</p>
                     </div>
                 </div>
                 <div className="col-xl-4 col-lg-6 col-md-6">
@@ -46,10 +46,10 @@ const WhatWeOffer = () => {
                             <img src={WhatWeOffer3} alt="" />
                         </div>
                         <h3 className="home3-What-We-Offer-card-tit">
-                        For your pet’s natural
+                        Overnight Pet Sitting
                         </h3>
 
-                        <p>Risus sed vulputate odio ut enim. Cursus in hac habitasse platea dictumst. Tortor dignissim convallis aenean et tortor. Etiam sit amet nisl purus</p>
+                        <p>Stay-in-your-home care that keeps pets on their routine with evening and morning walks, snuggles, and safety checks.</p>
                     </div>
                 </div>
                 <div className="col-xl-4 col-lg-6 col-md-6">
@@ -58,10 +58,10 @@ const WhatWeOffer = () => {
                             <img src={WhatWeOffer4} alt="" />
                         </div>
                         <h3 className="home3-What-We-Offer-card-tit">
-                        For your pet’s natural
+                        Puppy & Senior Care
                         </h3>
 
-                        <p>Risus sed vulputate odio ut enim. Cursus in hac habitasse platea dictumst. Tortor dignissim convallis aenean et tortor. Etiam sit amet nisl purus</p>
+                        <p>Gentle handling, shorter visits, and patient training reinforcement for young pups and aging companions.</p>
                     </div>
                 </div>
                 <div className="col-xl-4 col-lg-6 col-md-6">
@@ -70,10 +70,10 @@ const WhatWeOffer = () => {
                             <img src={WhatWeOffer5} alt="" />
                         </div>
                         <h3 className="home3-What-We-Offer-card-tit">
-                        For your pet’s natural
+                        Cat Sitting & Litter Care
                         </h3>
 
-                        <p>Risus sed vulputate odio ut enim. Cursus in hac habitasse platea dictumst. Tortor dignissim convallis aenean et tortor. Etiam sit amet nisl purus</p>
+                        <p>Feeding, litter scooping, meds, and playtime to keep cats content and routines uninterrupted.</p>
                     </div>
                 </div>
                 <div className="col-xl-4 col-lg-6 col-md-6">
@@ -82,10 +82,10 @@ const WhatWeOffer = () => {
                             <img src={WhatWeOffer1} alt="" />
                         </div>
                         <h3 className="home3-What-We-Offer-card-tit">
-                        For your pet’s natural
+                        GPS Updates & Photos
                         </h3>
 
-                        <p>Risus sed vulputate odio ut enim. Cursus in hac habitasse platea dictumst. Tortor dignissim convallis aenean et tortor. Etiam sit amet nisl purus</p>
+                        <p>Real-time GPS routes, time stamps, and picture check-ins so you always know how your pet’s visit went.</p>
                     </div>
                 </div>
             </div>

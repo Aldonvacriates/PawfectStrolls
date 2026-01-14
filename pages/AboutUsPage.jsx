@@ -44,16 +44,16 @@ const AboutUsPage = () => {
               Your Pets are in Very <b>Safe & Good</b> Hands
               </h3>
 
-              <p>Risus sed vulputate odio ut enim. Cursus in hac habitasse platea dictumst. Tortor dignissim convallis aenean et tortor. Etiam sit amet nisl purus in mollis nunc sed id. Integer enim neque volutpat ac tincidunt vitae semper quis lectus.</p>
+              <p>Pawfect Strolls is a trusted, boutique pet care team dedicated to keeping your dog or cat comfortable at home. We specialize in reliable daily dog walks, drop-in visits, and overnight care with GPS updates, photo check-ins, and safety-first handling.</p>
 
               <ul className="home2-SafeaAndGoodHands-cont-small-card">
                   <li>
                     <h3>Our Vision</h3>
-                    <p>Risus sed vulputate odio ut enim. Cursus in hac habitasse platea dictumst. Tortor dignissim convallis aenean et tortor.</p>
+                    <p>Create happier, calmer pets by delivering stress-free routines and enrichment on every walk and visit.</p>
                     </li>
                   <li>
                     <h3>Our Mission</h3>
-                    <p>Etiam sit amet nisl purus in mollis nunc sed id. Integer enim neque volutpat ac tincidunt vitae semper quis lectus.</p>
+                    <p>Show up on time, communicate clearly, and tailor care to each pet’s needs so busy owners always have peace of mind.</p>
                   </li>
               </ul>
 
@@ -84,14 +84,14 @@ const AboutUsPage = () => {
                     <div className="About-DC-Care-cont-wrap">
                         <span className="About-DC-Care-cont-mini-tit-1">
                          
-                        Why <b>DC Care</b>
+                        Why <b>Pawfect Strolls</b>
                         </span>
 
                         <h3 className="About-DC-Care-cont-main-tit-1">
-                        The pets lives for the day, the hour, even the  movement.
+                        Pet care built on trust, routine, and happy tails.
                         </h3>
 
-                        <p>Risus sed vulputate odio ut enim. Cursus in hac habitasse platea dictumst. Tortor dignissim convallis aenean et tortor. Etiam sit amet nisl purus in mollis nunc sed id. Integer enim neque volutpat ac tincidunt vitae semper quis lectus.</p>
+                        <p>Our walkers and sitters are trained in pet safety, insured, and bonded. We follow your feeding, medication, and training notes to the letter, send real-time updates, and adjust each visit to your pet’s age, energy level, and comfort.</p>
 
                         <div className="banner-btn-wraper">
                         <a href="#" className="primary-btn">Our Service</a>
