@@ -30,10 +30,10 @@ return (
 
             <ul className="terms-conditions">
               <li>
-                <a href="#">Terms & Conditions</a>
+                <a href="../pages/PrivacyPolicy">Terms & Conditions</a>
               </li>
               <li>
-                <a href="#">Privacy Policy</a>
+                <Link to="../privacy-policy">Privacy Policy</Link>
               </li>
               <li>
                 <a href="#">Refund Policy</a>
