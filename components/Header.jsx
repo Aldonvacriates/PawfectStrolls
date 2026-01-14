@@ -177,7 +177,7 @@ const Header = () => {
                       Home
                     </Link>
                   </button>
-                  <ul>
+                  {/* <ul>
                     <li className={`inner-home ${innerHome}`}>
                       <button
                         onClick={ActiveInnerHome}
@@ -188,7 +188,7 @@ const Header = () => {
                       <Link to="/home2">Home 2</Link>
                       <Link to="/home3">Home 3</Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li>
                   <Link to="/aboutuspage">About</Link>
@@ -196,10 +196,10 @@ const Header = () => {
                 <li>
                   <Link to="/contactus">Contact</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link to="/blog-detail">Blogs</Link>
-                </li>
-                <li className="Home3-nav-pages">
+                </li> */}
+                {/* <li className="Home3-nav-pages">
                   <button onClick={ActivePages}>
                     <Link to="/">Pages</Link>
                   </button>
@@ -225,7 +225,7 @@ const Header = () => {
                 </li>
                 <li>
                   <Link to="/shop">Shop</Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
