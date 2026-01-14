@@ -135,7 +135,7 @@ export default function SmsOptInFormspree({
               />
             </label>
 
-            <label className="pp-field">
+            <label className="pp-field pp-field-full">
               <span className="pp-field-label">Mobile phone number</span>
               <input
                 className="pp-input"

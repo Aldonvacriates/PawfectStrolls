@@ -90,6 +90,7 @@ type ModalState =
 
   // ===== Formspree Opt-in Form =====
   const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [smsConsent, setSmsConsent] = useState(false);
   const [submitting, setSubmitting] = useState(false);
@@ -126,6 +127,7 @@ type ModalState =
     try {
       const payload = {
         name,
+        email,
         phone,
         smsConsent: "yes",
         page: "/privacy-policy",
@@ -149,6 +151,7 @@ type ModalState =
 
       setSubmittedOk(true);
       setName("");
+      setEmail("");
       setPhone("");
       setSmsConsent(false);
 
@@ -396,6 +399,19 @@ type ModalState =
                       </label>
 
                       <label className="pp-field">
+                        <span className="pp-field-label">Email</span>
+                        <input
+                          className="pp-input"
+                          type="email"
+                          autoComplete="email"
+                          placeholder="hello@pawfectstrolls.com"
+                          value={email}
+                          onChange={(e) => setEmail(e.target.value)}
+                          required
+                        />
+                      </label>
+
+                      <label className="pp-field pp-field-full">
                         <span className="pp-field-label">
                           Mobile phone number
                         </span>
