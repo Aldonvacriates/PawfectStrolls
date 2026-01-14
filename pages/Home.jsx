@@ -8,11 +8,11 @@ import OurGroomers from "../components/OurGroomers"
 import ClientsFeedback from "../components/ClientsFeedback"
 import SubscribeNewsletter from "../components/SubscribeNewsletter"
 import Footer from "../components/Footer"
-// import AOS from "aos"
+import AOS from "aos"
 
-// import 'aos/dist/aos.css'; 
+import 'aos/dist/aos.css'; 
 // ..
-// AOS.init();
+AOS.init();
 
 
 import '../styles/style.css'
