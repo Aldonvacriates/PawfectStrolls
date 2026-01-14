@@ -482,6 +482,18 @@ type ModalState =
 
               <section id="contact" className="pp-section" data-aos="fade-up">
                 <h2>8. Contact</h2>
+                <p className="pp-note">
+                  If you have any questions about this policy or your data,
+                  please contact us at{" "}
+                  <a className="pp-link" href="mailto:hello@pawfectstrolls.com">
+                    hello@pawfectstrolls.com
+                  </a>{" "}
+                  or call{" "}
+                  <a className="pp-link" href="tel:4352413838">
+                    (435) 241-3838
+                  </a>
+                  .
+                </p>
                 <div className="pp-contact">
                   <div>
                     <div className="pp-label">Business</div>
