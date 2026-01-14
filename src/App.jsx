@@ -12,6 +12,7 @@ import Home3ContactUs from "../pages/Home3ContactUs"
 import PetsDetailPage from "../pages/PetsDetailPage"
 import Home3ShopDetailsPage from "../pages/Home3ShopDetailsPage"
 import AboutUsPage from "../pages/AboutUsPage"
+import PrivacyPolicy from "../pages/PrivacyPolicy"
 import "../styles/boostrap.css"
 // import 'animate.css';
 import ScrollToTop from "../components/ScrollToTop"
@@ -43,6 +44,7 @@ function App() {
       <Route path="/petsdetailpage" element={<PetsDetailPage />} />
       <Route path="/home3shopdetailspage" element={<Home3ShopDetailsPage />} />
       <Route path="/aboutuspage" element={<AboutUsPage />} />
+      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       <Route path="*" element={<Navigate to="/" />} />
     </Routes>
     </BrowserRouter>
