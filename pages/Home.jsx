@@ -20,9 +20,9 @@ import "../styles/page1-res.css"
 import "../styles/page1-mob-view.css"
 
 const Home = () => {
-  // <script>
-  // AOS.init();
-  // </script>
+  <script>
+   AOS.init();
+   </script>
 
 
 
