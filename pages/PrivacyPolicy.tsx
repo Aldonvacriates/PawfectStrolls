@@ -196,11 +196,11 @@ type ModalState =
 
                 <div className="pp-meta">
                   <span>Last updated: January 2026</span>
-                  <span className="pp-dot">•</span>
+                  <span className="pp-dot">/</span>
                   <a className="pp-link" href="#sms-terms">
                     Jump to SMS Terms
                   </a>
-                  <span className="pp-dot">•</span>
+                  <span className="pp-dot">/</span>
                   <a className="pp-link" href="#sms-optin">
                     Go to SMS Opt-In Form
                   </a>
