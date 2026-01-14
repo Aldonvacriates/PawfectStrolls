@@ -1,5 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from "react";
-import type { FC, FormEvent } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import Header from "../components/Header.jsx";
 import Footer from "../components/Footer.jsx";
 
@@ -9,47 +8,32 @@ import "../styles/page1-res.css";
 import "../styles/page1-mob-view.css";
 import "../styles/privacy-policy-sec.css";
 
-// ? Update this URL to your desired hero image (served from /public or a CDN)
+// AOS (matches your About section style)
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+// ✅ Update this URL to your desired hero image (served from /public or a CDN)
 const HERO_DOG_TRUST =
   "https://images.unsplash.com/photo-1507146426996-ef05306b995a?auto=format&fit=crop&w=1200&q=80";
 
-type TocItem = {
-  id: string;
-  label: string;
-};
-
 type ModalType = "success" | "error";
+type ModalState =
+  | { open: false; type: ModalType; title: string; message: string }
+  | { open: true; type: ModalType; title: string; message: string };
 
-type ModalState = {
-  open: boolean;
-  type: ModalType;
-  title: string;
-  message: string;
-};
 
-type OptInPayload = {
-  name: string;
-  email: string;
-  phone: string;
-  smsConsent: "yes";
-  page: string;
-  optInLocation: string;
-  consentText: string;
-  submittedAt: string;
-};
+    const PrivacyPolicy = () => {
+  // ✅ Replace with your Formspree endpoint:
+  // Example: https://formspree.io/f/abcdwxyz
+  const FORMSPREE_ENDPOINT = "https://formspree.io/f/mjggvqyr";
 
-// ? Replace with your Formspree endpoint:
-// Example: https://formspree.io/f/abcdwxyz
-const FORMSPREE_ENDPOINT = "https://formspree.io/f/mjggvqyr";
-
-const PrivacyPolicy: FC = () => {
-  // ? Direct link Grasshopper wants (link to the page section where opt-in occurs)
-  const optInUrl = useMemo<string>(
+  // ✅ Direct link Grasshopper wants (link to the page section where opt-in occurs)
+  const optInUrl = useMemo(
     () => "https://www.pawfectstrolls.com/privacy-policy#sms-optin",
     []
   );
 
-  const toc = useMemo<TocItem[]>(
+  const toc = useMemo(
     () => [
       { id: "info-we-collect", label: "Information we collect" },
       { id: "how-we-use", label: "How we use information" },
@@ -63,27 +47,35 @@ const PrivacyPolicy: FC = () => {
     []
   );
 
+  // ===== AOS Init =====
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      delay: 50,
+      once: true,
+      easing: "ease-out-cubic",
+    });
+  }, []);
+
   // ===== Auto-highlight TOC on scroll =====
   const [activeId, setActiveId] = useState<string>(toc[0]?.id ?? "");
 
   useEffect(() => {
     const sections = toc
       .map((t) => document.getElementById(t.id))
-      .filter((section): section is HTMLElement => Boolean(section));
+      .filter(Boolean) as HTMLElement[];
 
     if (!sections.length) return;
 
     const observer = new IntersectionObserver(
       (entries) => {
         const visible = entries
-          .filter((entry) => entry.isIntersecting)
+          .filter((e) => e.isIntersecting)
           .sort(
             (a, b) => (b.intersectionRatio ?? 0) - (a.intersectionRatio ?? 0)
           )[0];
 
-        if (visible?.target instanceof HTMLElement && visible.target.id) {
-          setActiveId(visible.target.id);
-        }
+        if (visible?.target?.id) setActiveId(visible.target.id);
       },
       {
         root: null,
@@ -92,17 +84,17 @@ const PrivacyPolicy: FC = () => {
       }
     );
 
-    sections.forEach((section) => observer.observe(section));
+    sections.forEach((s) => observer.observe(s));
     return () => observer.disconnect();
   }, [toc]);
 
   // ===== Formspree Opt-in Form =====
-  const [name, setName] = useState<string>("");
-  const [email, setEmail] = useState<string>("");
-  const [phone, setPhone] = useState<string>("");
-  const [smsConsent, setSmsConsent] = useState<boolean>(false);
-  const [submitting, setSubmitting] = useState<boolean>(false);
-  const [submittedOk, setSubmittedOk] = useState<boolean>(false);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [smsConsent, setSmsConsent] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [submittedOk, setSubmittedOk] = useState(false);
 
   const [modal, setModal] = useState<ModalState>({
     open: false,
@@ -111,22 +103,20 @@ const PrivacyPolicy: FC = () => {
     message: "",
   });
 
-  const closeModal = useCallback(
-    () => setModal((m) => ({ ...m, open: false })),
-    []
-  );
+  const closeModal = () =>
+    setModal((m) => ({ ...m, open: false } as ModalState));
 
   useEffect(() => {
-    if (!modal.open) return undefined;
-    const onKeyDown = (event: KeyboardEvent) => {
-      if (event.key === "Escape") closeModal();
+    if (!modal.open) return;
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") closeModal();
     };
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
-  }, [modal.open, closeModal]);
+  }, [modal.open]);
 
-  const handleOptInSubmit = async (event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
+  async function handleOptInSubmit(e: React.FormEvent) {
+    e.preventDefault();
     if (submitting) return;
 
     // Basic guard
@@ -135,7 +125,7 @@ const PrivacyPolicy: FC = () => {
     setSubmitting(true);
 
     try {
-      const payload: OptInPayload = {
+      const payload = {
         name,
         email,
         phone,
@@ -170,7 +160,7 @@ const PrivacyPolicy: FC = () => {
         type: "success",
         title: "Success!",
         message:
-          "Thank you - your information was submitted successfully. If you opted in, you may receive texts from Pawfect Strolls LLC.",
+          "Thank you — your information was submitted successfully. If you opted in, you may receive texts from Pawfect Strolls LLC.",
       });
     } catch (err) {
       setModal({
@@ -183,7 +173,7 @@ const PrivacyPolicy: FC = () => {
     } finally {
       setSubmitting(false);
     }
-  };
+  }
 
   return (
     <div className="page1-wrap">
@@ -203,7 +193,7 @@ const PrivacyPolicy: FC = () => {
                 <p className="pp-eyebrow">Pawfect Strolls LLC</p>
                 <h1 className="pp-title">Privacy Policy & SMS Terms</h1>
                 <p className="pp-subtitle">
-                  How we collect, use, and protect your information - including
+                  How we collect, use, and protect your information — including
                   SMS messaging consent.
                 </p>
 
@@ -369,7 +359,7 @@ const PrivacyPolicy: FC = () => {
                 </div>
               </section>
 
-              {/* ? OPT-IN FORM SECTION (Direct link for Grasshopper) */}
+              {/* ✅ OPT-IN FORM SECTION (Direct link for Grasshopper) */}
               <section id="sms-optin" className="pp-section" data-aos="fade-up">
                 <h2>5. SMS opt-in form (website)</h2>
                 <p>
@@ -578,7 +568,7 @@ const PrivacyPolicy: FC = () => {
                   onClick={closeModal}
                   aria-label="Close"
                 >
-                  x
+                  ×
                 </button>
               </div>
 
@@ -601,6 +591,6 @@ const PrivacyPolicy: FC = () => {
       <Footer />
     </div>
   );
-};
+}
 
-export default PrivacyPolicy;
+export default PrivacyPolicy
