@@ -245,3 +245,102 @@
     font-size: 34px;
   }
 }
+
+/* Thank you block */
+.pp-thanks {
+  background: #ecfdf5;
+  border: 1px solid #a7f3d0;
+  border-radius: 14px;
+  padding: 18px;
+}
+
+.pp-thanks-title {
+  margin: 0 0 6px;
+  font-size: 18px;
+  color: #065f46;
+}
+
+.pp-thanks-text {
+  margin: 0 0 14px;
+  color: #065f46;
+  line-height: 1.5;
+}
+
+.pp-small {
+  margin: 0;
+  font-size: 13px;
+  color: #6b7280;
+  word-break: break-word;
+}
+
+/* Modal */
+.pp-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(17, 24, 39, 0.55);
+  display: grid;
+  place-items: center;
+  padding: 18px;
+  z-index: 9999;
+}
+
+.pp-modal {
+  width: min(520px, 100%);
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 18px 55px rgba(0, 0, 0, 0.22);
+  padding: 16px;
+}
+
+.pp-modal.is-success {
+  border-color: #a7f3d0;
+}
+
+.pp-modal.is-error {
+  border-color: #fecaca;
+}
+
+.pp-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.pp-modal-title {
+  margin: 0;
+  font-size: 18px;
+}
+
+.pp-modal.is-success .pp-modal-title {
+  color: #065f46;
+}
+
+.pp-modal.is-error .pp-modal-title {
+  color: #991b1b;
+}
+
+.pp-modal-message {
+  margin: 10px 0 14px;
+  color: #374151;
+  line-height: 1.5;
+}
+
+.pp-modal-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pp-modal-close {
+  border: none;
+  background: transparent;
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+  color: #6b7280;
+}
+
+.pp-modal-close:hover {
+  color: #111827;
+}
