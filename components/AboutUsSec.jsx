@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Img1 from "../src/assets/home/about-us/about-us-sec-mainimg.png"
 
 const AboutUsSec = () => {
@@ -44,12 +45,12 @@ const AboutUsSec = () => {
                   <li>Loveable Sitters</li>
                 </ul>
 
-                <a
+                <Link
                   className="abt-us-read-more-btn"
-                  href="https://pawfectstrolls.notion.site/About-Pawfect-Strolls-2c0da13b13c080b3a111e6ee88d06491"
+                  to="/aboutuspage"
                 >
                   Read more
-                </a>
+                </Link>
               </div>
             </div>
           </div>
