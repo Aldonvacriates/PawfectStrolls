@@ -315,6 +315,21 @@
         margin: 1rem auto;
     }
 
+    .footer-cta-wrap{
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .footer-app-download{
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-app-badges{
+        justify-content: center;
+    }
+
     .footer-contact-detail > li{
         margin: 10px 0px;
     }

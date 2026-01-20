@@ -1335,6 +1335,39 @@ li{
    flex-wrap: wrap;
 }
 
+.footer-cta-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.footer-app-download{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    text-align: right;
+}
+
+.footer-app-download-title{
+    font-family: "Nunito", serif;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.footer-app-badges{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.footer-app-badges img{
+    height: 48px;
+    width: auto;
+}
+
 .social-media-links{
     display: flex;
     gap: 20px;
