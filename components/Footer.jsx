@@ -86,7 +86,7 @@ const Footer = () => {
 
                 <div className="footer-cta-wrap">
                   <div className="footer-app-download">
-                    {/* <br /> */}
+                    <h4>Download The App</h4>
                     <div className="footer-app-badges">
                       <a
                         href="https://apps.apple.com/us/app/time-to-pet/id957456517"
@@ -111,7 +111,7 @@ const Footer = () => {
                     </div>
                   </div>
 
-                  {/* <div className="social-media-links">
+                  <div className="social-media-links">
                     <a href="#">
                       <img src={Linkedin} alt="" />
                     </a>
@@ -121,7 +121,7 @@ const Footer = () => {
                     <a href="#">
                       <img src={Facebook} alt="" />
                     </a>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>
